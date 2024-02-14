@@ -2,7 +2,7 @@ import React from "react";
 import { ToastContainer, Slide } from "react-toastify";
 import Menu from "./layouts/Menu";
 
-function QuePage() {
+function InfoPage() {
   return (
     // ========== Start ========== //
     <Menu />
@@ -10,4 +10,4 @@ function QuePage() {
     // ========== End ========== //
   );
 }
-export default QuePage;
+export default InfoPage;

@@ -8,8 +8,7 @@ import useAuth from '../../../hooks/use-auth';
 const initial = {
   firstName: '',
   lastName: '',
-  email: '',
-  mobile: '',
+  emailOrMobile: '',
   password: '',
   confirmPassword: ''
 };
@@ -35,7 +34,7 @@ export default function RegisterForm({ onSuccess }) {
       onSuccess();
     } catch (err) {
       if (err.response?.data.message === 'EMAIL_MOBILE_IN_USE') {
-        return setError({ email: 'already in use' });
+        return setError({ emailOrMobile: 'already in use' });
       }
       toast.error(err.response?.data.message);
     }
@@ -71,28 +70,16 @@ export default function RegisterForm({ onSuccess }) {
           />
         </div>
 
-        {/* ========== < email > ========== */}
+        {/* ========== < EmailOrMobile > ========== */}
         <div className="col-span-full">
           <Input
-            placeholder="Email address"
-            value={input.email}
-            name="email"
+            placeholder="Email address or mobile number"
+            value={input.emailOrMobile}
+            name="emailOrMobile"
             onChange={handleChangeInput}
-            errorMessage={error.email}
+            errorMessage={error.emailOrMobile}
           />
         </div>
-
-        {/* ========== < mobile > ========== */}
-        <div className="col-span-full">
-          <Input
-            placeholder="Mobile number"
-            value={input.mobile}
-            name="mobile"
-            onChange={handleChangeInput}
-            errorMessage={error.mobile}
-          />
-        </div>
-
 
         {/* ========== < Password > ========== */}
         <div className="col-span-full">
