@@ -1,13 +1,20 @@
 import React from "react";
-import { ToastContainer, Slide } from "react-toastify";
 import Menu from "./layouts/Menu";
+import Footer from "./layouts/Footer";
+import LoginPage from "./pages/LoginPage";
+
 
 function App() {
   return (
-    // ========== Start ========== //
-    <Menu />
+    // ========== Nevbar ========== //
+    <div>
+      <Menu />
+      {/* ========== TEST Page ========== */}
+          <LoginPage />
 
-    // ========== End ========== //
+      {/* ========== Footer ========== */}
+      <Footer />
+    </div>
   );
 }
 

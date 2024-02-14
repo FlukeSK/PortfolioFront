@@ -1,3 +1,5 @@
+import React from "react";
+
 export default function Modal({ title, children, onClose, width }) {
     return (
       <>

@@ -10,7 +10,12 @@ export default function LoginForm() {
   const [input, setInput] = useState({ emailOrMobile: '', password: '' });
   const [error, setError] = useState({});
 
-  const { login } = useAuth();
+  const { login } = useAuth() || {};
+  if (login) {
+    console.log(login)
+  } else {
+  }
+  
 
   // =============== < Handle > =============== //
   const handleSubmitForm = async e => {

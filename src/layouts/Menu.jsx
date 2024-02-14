@@ -1,5 +1,6 @@
 import React from "react";
 import "../index.css";
+import { Link } from "react-router-dom";
 
 // =============== < Function > =============== //
 export default function Menu() {
@@ -13,23 +14,23 @@ export default function Menu() {
         >
           <ul className="flex justify-between items-start p-4 m-2 gap-4 text-white font-semibold">
             <li>
-              <a>Home</a>
+              <a href="../pages/HomePage.jsx">Home</a>
             </li>
 
             <li>
-              <a>Cat</a>
+              <a href="../pages/CatsPage.jsx">Cat</a>
+            </li>
+
+              <li>
+                <a href="../pages/FoodPage.jsx">Food</a>
+              </li>
+
+            <li>
+              <a href="../pages/QuePage.jsx">Queue</a>
             </li>
 
             <li>
-              <a>Food</a>
-            </li>
-
-            <li>
-              <a>Queue</a>
-            </li>
-
-            <li>
-              <a>Info</a>
+              <a href="../pages/InfoPage.jsx">Info</a>
             </li>
           </ul>
 
@@ -38,42 +39,42 @@ export default function Menu() {
               <ul className="flex justify-between items-start p-4 m-2 gap-4 text-white font-semibold">
                 {false ? (
                   // ===== Role ===== //
-                //   ===== ADMIN =====
+                  //   ===== ADMIN =====
                   true ? (
                     <>
-                    <li>
-                      <a>Logout</a>
-                    </li>
+                      <li>
+                        <a href="../pages/LoginPage.jsx">Logout</a>
+                      </li>
 
-                    <li>
-                      <a>Check User</a>
-                    </li>
-                    
-                    <li>
-                      <a>Check Queue</a>
-                    </li>
-                  </>
+                      <li>
+                        <a href="../pages/CheckUser.jsx">Check User</a>
+                      </li>
+
+                      <li>
+                        <a href="../pages/CheckQueue.jsx">Check Queue</a>
+                      </li>
+                    </>
                   ) : (
                     // ===== User =====
                     <>
-                    <li>
-                      <a>Logout</a>
-                    </li>
+                      <li>
+                        <a href="../pages/LoginPage.jsx">Logout</a>
+                      </li>
 
-                    <li>
-                      <a>Change Password</a>
-                    </li>
-                  </>
+                      <li>
+                        <a href="../pages/ChangePasswordPage.jsx">Change Password</a>
+                      </li>
+                    </>
                   )
                 ) : (
                   // ===== Guest ===== //
                   <>
                     <li>
-                      <a>Register</a>
+                      <a href="../features/auth/components/RegisterForm.jsx">Register</a>
                     </li>
 
                     <li>
-                      <a>Login</a>
+                      <a href="../pages/LoginPage.jsx">Login</a>
                     </li>
                   </>
                 )}

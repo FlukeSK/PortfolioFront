@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { toast } from 'react-toastify';
 import Button from '../../../components/Button';
 import Input from '../../../components/Input';
-import validateRegister from '../validation/validate-register';
+import validateRegister from '../validation/validation-register';
 import useAuth from '../../../hooks/use-auth';
 
 const initial = {
