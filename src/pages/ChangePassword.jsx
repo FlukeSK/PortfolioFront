@@ -1,24 +1,22 @@
 import { useState } from "react";
 import { toast } from "react-toastify";
-import Button from "../../../components/Button";
-import Input from "../../../components/Input";
-import validateRegister from "../validation/validation-register";
-import useAuth from "../../../hooks/use-auth";
+import Button from "../components/Button";
+import Input from "../components/Input";
+import validateRegister from "../features/auth/validation/validation-register"
+import useAuth from "../hooks/use-auth";
 
-import Menu from "../../../layouts/Menu";
-import LogoCat from "../../../layouts/LogoCat";
-import Footer from "../../../layouts/Footer";
+import Menu from "../layouts/Menu";
+import LogoCat from "../layouts/LogoCat";
+import Footer from "../layouts/Footer";
 
 const initial = {
-  firstName: "",
-  lastName: "",
   emailOrMobile: "",
   password: "",
   confirmPassword: "",
 };
 
 // =============== < Function > =============== //
-export default function RegisterForm({ onSuccess }) {
+export default function ChangePassword({ onSuccess }) {
   const [input, setInput] = useState(initial);
   const [error, setError] = useState({});
 
@@ -33,8 +31,8 @@ export default function RegisterForm({ onSuccess }) {
         return setError(validateError);
       }
 
-      await register(input);
-      toast.success("register successfully");
+      await rupdatepassword(input);
+      toast.success("updatepassword successfully");
       onSuccess();
     } catch (err) {
       if (err.response?.data.message === "EMAIL_MOBILE_IN_USE") {
@@ -60,30 +58,8 @@ export default function RegisterForm({ onSuccess }) {
           onSubmit={handleFormSubmit}
           className="grid grid-cols-2 p-4 gap-4"
         >
-          <div className=" col-span-full w-[22rem]">
-            {/* ========== < FirstName > ========== */}
-            <Input
-              placeholder="First name"
-              value={input.firstName}
-              name="firstName"
-              onChange={handleChangeInput}
-              errorMessage={error.firstName}
-            />
-          </div>
-
-          {/* ========== < LastName > ========== */}
-          <div className="col-span-full">
-            <Input
-              placeholder="Last name"
-              value={input.lastName}
-              name="lastName"
-              onChange={handleChangeInput}
-              errorMessage={error.lastName}
-            />
-          </div>
-
           {/* ========== < EmailOrMobile > ========== */}
-          <div className="col-span-full">
+          <div className="col-span-full w-[22rem]">
             <Input
               placeholder="Email address or mobile number"
               value={input.emailOrMobile}
@@ -120,7 +96,7 @@ export default function RegisterForm({ onSuccess }) {
           {/* ========== < Button > ========== */}
           <div className="col-span-full text-center">
             <Button bg="pink" color="white">
-              Sign up
+              Confirm
             </Button>
           </div>
         </form>

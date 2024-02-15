@@ -1,19 +1,25 @@
 import React from "react";
-import Menu from "./layouts/Menu";
-import Footer from "./layouts/Footer";
+
 import LoginPage from "./pages/LoginPage";
+import FoodPage from "./pages/FoodPage";
+import InfoPage from "./pages/InfoPage";
+import CatsPage from "./pages/CatsPage";
+
+import RegisterForm from "./features/auth/components/RegisterForm";
+import ChangePassword from "./pages/ChangePassword";
 
 
 function App() {
   return (
     // ========== Nevbar ========== //
     <div>
-      <Menu />
+      {/* <Menu /> */}
+      {/* <LogoCat /> */}
       {/* ========== TEST Page ========== */}
-          <LoginPage />
+        <ChangePassword />
 
       {/* ========== Footer ========== */}
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

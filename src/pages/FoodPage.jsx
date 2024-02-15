@@ -11,11 +11,15 @@ import ColdDrink from "./miniFoodPage/ColdDrink";
 import HotDrink from "./miniFoodPage/HotDrink";
 import CatTreats from "./miniFoodPage/CatTreats";
 import Footer from "../layouts/Footer";
+
+import Menu from "../layouts/Menu";
 import LogoCat from "../layouts/LogoCat";
 
+// =============== < Function > =============== //
 export default function FoodPage() {
   return (
     <div>
+      <Menu />
       {/* ========== Img ========== */}
       <div className="flex justify-center items-center">
         <img className="h-auto max-w-full" src={MENU} alt="image description" />

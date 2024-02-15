@@ -10,7 +10,7 @@ export default function Footer() {
           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
           &nbsp;🐾 Business Day 🐾
           <br />
-          Open : Tuesday - Friday 12:00 a.m. - 8:00 p.m.
+          &nbsp;Open : Tuesday - Friday 12:00 a.m. - 8:00 p.m.
           <br />
           Open : Saturday - Sunday 11:00 a.m. - 8:00 p.m.
           <br />
