@@ -9,28 +9,27 @@ export default function Menu() {
     <div>
       <div>
         <div
-          role="button"
           className="bg-pink-400 flex justify-between items-between"
         >
-          <ul className="flex justify-between items-start p-4 m-2 gap-4 text-white font-semibold">
+          <ul  role="button" className="flex justify-between items-start p-4 m-2 gap-4 text-white font-semibold">
             <li>
-              <a href="../pages/HomePage.jsx">Home</a>
+              <a href="/home">Home</a>
             </li>
 
             <li>
-              <a href="../pages/CatsPage.jsx">Cat</a>
+              <a href="/cat">Cat</a>
             </li>
 
               <li>
-                <a href="../pages/FoodPage.jsx">Food</a>
+                <a href="/food">Food</a>
               </li>
 
             <li>
-              <a href="../pages/QuePage.jsx">Queue</a>
+              <a href="/queue">Queue</a>
             </li>
 
             <li>
-              <a href="../pages/InfoPage.jsx">Info</a>
+              <a href="/info">Info</a>
             </li>
           </ul>
 
@@ -43,26 +42,26 @@ export default function Menu() {
                   true ? (
                     <>
                       <li>
-                        <a href="../pages/LoginPage.jsx">Logout</a>
+                        <a href="/login">Logout</a>
                       </li>
 
                       <li>
-                        <a href="../pages/CheckUser.jsx">Check User</a>
+                        <a href="/">Check User</a>
                       </li>
 
                       <li>
-                        <a href="../pages/CheckQueue.jsx">Check Queue</a>
+                        <a href="/">Check Queue</a>
                       </li>
                     </>
                   ) : (
                     // ===== User =====
                     <>
                       <li>
-                        <a href="../pages/LoginPage.jsx">Logout</a>
+                        <a href="/login">Logout</a>
                       </li>
 
                       <li>
-                        <a href="../pages/ChangePasswordPage.jsx">Change Password</a>
+                        <a href="/">Change Password</a>
                       </li>
                     </>
                   )
@@ -70,11 +69,7 @@ export default function Menu() {
                   // ===== Guest ===== //
                   <>
                     <li>
-                      <a href="../features/auth/components/RegisterForm.jsx">Register</a>
-                    </li>
-
-                    <li>
-                      <a href="../pages/LoginPage.jsx">Login</a>
+                      <a href="/login">Login</a>
                     </li>
                   </>
                 )}

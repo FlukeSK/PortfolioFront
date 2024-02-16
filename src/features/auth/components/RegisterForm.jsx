@@ -4,10 +4,8 @@ import Button from "../../../components/Button";
 import Input from "../../../components/Input";
 import validateRegister from "../validation/validation-register";
 import useAuth from "../../../hooks/use-auth";
-
-import Menu from "../../../layouts/Menu";
 import LogoCat from "../../../layouts/LogoCat";
-import Footer from "../../../layouts/Footer";
+
 
 const initial = {
   firstName: "",
@@ -22,7 +20,7 @@ export default function RegisterForm({ onSuccess }) {
   const [input, setInput] = useState(initial);
   const [error, setError] = useState({});
 
-  // const { register } = useAuth();
+  const { register } = useAuth();
 
   // =============== < Handle > =============== //
   const handleFormSubmit = async (e) => {
@@ -51,16 +49,15 @@ export default function RegisterForm({ onSuccess }) {
   // =============== < Return > =============== //
   return (
     <div>
-      <Menu />
       <LogoCat />
 
       {/* =============== < Form > =============== */}
       <div className=" flex justify-center items-center">
         <form
           onSubmit={handleFormSubmit}
-          className="grid grid-cols-2 p-4 gap-4"
+          className="grid grid-cols-2 p-4 gap-4 w-full"
         >
-          <div className=" col-span-full w-[22rem]">
+          <div className=" col-span-full">
             {/* ========== < FirstName > ========== */}
             <Input
               placeholder="First name"
@@ -126,7 +123,7 @@ export default function RegisterForm({ onSuccess }) {
         </form>
       </div>
       {/* =============== < END > =============== */}
-      <Footer />
+
     </div>
   );
 }

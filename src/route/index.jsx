@@ -5,6 +5,9 @@ import CatPage from "../pages/CatsPage";
 import FoodPage from "../pages/FoodPage";
 import QueuePage from "../pages/QuePage";
 import InfoPage from "../pages/InfoPage";
+import Container from "../layouts/Container";
+import RedirectIfAuthenticated from "../features/auth/components/RedirectIfAuthenticated";
+import ProtectedRoute from "../features/auth/components/ProtectedRoute";
 
 const router = createBrowserRouter([
   {
