@@ -118,13 +118,13 @@ function CatsPage() {
             <img src={Frodo} alt="Album" />
           </figure>
           <div className="card-body ">
-            <h2 className="card-title">&nbsp;&nbsp;Name : Piza</h2>
+            <h2 className="card-title">&nbsp;&nbsp;Name : Frodo</h2>
             <p>
-              &nbsp;&nbsp;Gender : Girls
+              &nbsp;&nbsp;Gender : Boy
               <br />
               &nbsp;&nbsp;Age : 9 Year
               <br />
-              &nbsp;&nbsp;Breed : Munchkin
+              &nbsp;&nbsp;Breed : Kinkarol
               <br />
               &nbsp;&nbsp;Like : Tuna
             </p>
@@ -137,7 +137,7 @@ function CatsPage() {
             <img src={BingBong} alt="Album" />
           </figure>
           <div className="card-body ">
-            <h2 className="card-title">&nbsp;&nbsp;Name : Piza</h2>
+            <h2 className="card-title">&nbsp;&nbsp;Name : BingBong</h2>
             <p>
               &nbsp;&nbsp;Gender : Girls
               <br />
@@ -156,9 +156,9 @@ function CatsPage() {
             <img src={Bobby} alt="Album" />
           </figure>
           <div className="card-body ">
-            <h2 className="card-title">&nbsp;&nbsp;Name : Piza</h2>
+            <h2 className="card-title">&nbsp;&nbsp;Name : Bobby</h2>
             <p>
-              &nbsp;&nbsp;Gender : Girls
+              &nbsp;&nbsp;Gender : Boy
               <br />
               &nbsp;&nbsp;Age : 9 Year
               <br />
@@ -175,9 +175,9 @@ function CatsPage() {
             <img src={Mika} alt="Album" />
           </figure>
           <div className="card-body ">
-            <h2 className="card-title">&nbsp;&nbsp;Name : Piza</h2>
+            <h2 className="card-title">&nbsp;&nbsp;Name : Mika</h2>
             <p>
-              &nbsp;&nbsp;Gender : Girls
+              &nbsp;&nbsp;Gender : Boy
               <br />
               &nbsp;&nbsp;Age : 9 Year
               <br />
@@ -197,9 +197,9 @@ function CatsPage() {
             <img src={Shimp} alt="Album" />
           </figure>
           <div className="card-body ">
-            <h2 className="card-title">&nbsp;&nbsp;Name : Piza</h2>
+            <h2 className="card-title">&nbsp;&nbsp;Name : Shimp</h2>
             <p>
-              &nbsp;&nbsp;Gender : Girls
+              &nbsp;&nbsp;Gender : Boy
               <br />
               &nbsp;&nbsp;Age : 9 Year
               <br />
@@ -216,7 +216,7 @@ function CatsPage() {
             <img src={OneDa} alt="Album" />
           </figure>
           <div className="card-body ">
-            <h2 className="card-title">&nbsp;&nbsp;Name : Piza</h2>
+            <h2 className="card-title">&nbsp;&nbsp;Name : OneDa</h2>
             <p>
               &nbsp;&nbsp;Gender : Girls
               <br />
@@ -235,9 +235,9 @@ function CatsPage() {
             <img src={Krai} alt="Album" />
           </figure>
           <div className="card-body ">
-            <h2 className="card-title">&nbsp;&nbsp;Name : Piza</h2>
+            <h2 className="card-title">&nbsp;&nbsp;Name : Krai</h2>
             <p>
-              &nbsp;&nbsp;Gender : Girls
+              &nbsp;&nbsp;Gender : Boy
               <br />
               &nbsp;&nbsp;Age : 9 Year
               <br />
@@ -254,9 +254,9 @@ function CatsPage() {
             <img src={Lika} alt="Album" />
           </figure>
           <div className="card-body ">
-            <h2 className="card-title">&nbsp;&nbsp;Name : Piza</h2>
+            <h2 className="card-title">&nbsp;&nbsp;Name : Lika</h2>
             <p>
-              &nbsp;&nbsp;Gender : Girls
+              &nbsp;&nbsp;Gender : Boy
               <br />
               &nbsp;&nbsp;Age : 9 Year
               <br />
@@ -273,9 +273,9 @@ function CatsPage() {
             <img src={Zimba} alt="Album" />
           </figure>
           <div className="card-body ">
-            <h2 className="card-title">&nbsp;&nbsp;Name : Piza</h2>
+            <h2 className="card-title">&nbsp;&nbsp;Name : Zimba</h2>
             <p>
-              &nbsp;&nbsp;Gender : Girls
+              &nbsp;&nbsp;Gender : Boy
               <br />
               &nbsp;&nbsp;Age : 9 Year
               <br />
@@ -292,9 +292,9 @@ function CatsPage() {
             <img src={Bozo} alt="Album" />
           </figure>
           <div className="card-body ">
-            <h2 className="card-title">&nbsp;&nbsp;Name : Piza</h2>
+            <h2 className="card-title">&nbsp;&nbsp;Name : Bozo</h2>
             <p>
-              &nbsp;&nbsp;Gender : Girls
+              &nbsp;&nbsp;Gender : Boy
               <br />
               &nbsp;&nbsp;Age : 9 Year
               <br />
@@ -311,9 +311,9 @@ function CatsPage() {
             <img src={Zaicrop} alt="Album" />
           </figure>
           <div className="card-body ">
-            <h2 className="card-title">&nbsp;&nbsp;Name : Piza</h2>
+            <h2 className="card-title">&nbsp;&nbsp;Name : Zaicrop</h2>
             <p>
-              &nbsp;&nbsp;Gender : Girls
+              &nbsp;&nbsp;Gender : Boy
               <br />
               &nbsp;&nbsp;Age : 9 Year
               <br />
@@ -334,9 +334,9 @@ function CatsPage() {
             <img src={Grayteal} alt="Album" />
           </figure>
           <div className="card-body ">
-            <h2 className="card-title">&nbsp;&nbsp;Name : Piza</h2>
+            <h2 className="card-title">&nbsp;&nbsp;Name : Grayteal</h2>
             <p>
-              &nbsp;&nbsp;Gender : Girls
+              &nbsp;&nbsp;Gender : Boy
               <br />
               &nbsp;&nbsp;Age : 9 Year
               <br />
@@ -353,9 +353,9 @@ function CatsPage() {
             <img src={Eongtrong} alt="Album" />
           </figure>
           <div className="card-body ">
-            <h2 className="card-title">&nbsp;&nbsp;Name : Piza</h2>
+            <h2 className="card-title">&nbsp;&nbsp;Name : Eongtrong</h2>
             <p>
-              &nbsp;&nbsp;Gender : Girls
+              &nbsp;&nbsp;Gender : Boy
               <br />
               &nbsp;&nbsp;Age : 9 Year
               <br />
@@ -372,7 +372,7 @@ function CatsPage() {
             <img src={Winter} alt="Album" />
           </figure>
           <div className="card-body ">
-            <h2 className="card-title">&nbsp;&nbsp;Name : Piza</h2>
+            <h2 className="card-title">&nbsp;&nbsp;Name : Winter</h2>
             <p>
               &nbsp;&nbsp;Gender : Girls
               <br />
@@ -391,7 +391,7 @@ function CatsPage() {
             <img src={Misty} alt="Album" />
           </figure>
           <div className="card-body ">
-            <h2 className="card-title">&nbsp;&nbsp;Name : Piza</h2>
+            <h2 className="card-title">&nbsp;&nbsp;Name : Misty</h2>
             <p>
               &nbsp;&nbsp;Gender : Girls
               <br />
@@ -410,7 +410,7 @@ function CatsPage() {
             <img src={Fyby} alt="Album" />
           </figure>
           <div className="card-body ">
-            <h2 className="card-title">&nbsp;&nbsp;Name : Piza</h2>
+            <h2 className="card-title">&nbsp;&nbsp;Name : Fyby</h2>
             <p>
               &nbsp;&nbsp;Gender : Girls
               <br />
@@ -429,9 +429,9 @@ function CatsPage() {
             <img src={Harry} alt="Album" />
           </figure>
           <div className="card-body ">
-            <h2 className="card-title">&nbsp;&nbsp;Name : Piza</h2>
+            <h2 className="card-title">&nbsp;&nbsp;Name : Harry</h2>
             <p>
-              &nbsp;&nbsp;Gender : Girls
+              &nbsp;&nbsp;Gender : Boy
               <br />
               &nbsp;&nbsp;Age : 9 Year
               <br />
@@ -448,9 +448,9 @@ function CatsPage() {
             <img src={Beacon} alt="Album" />
           </figure>
           <div className="card-body ">
-            <h2 className="card-title">&nbsp;&nbsp;Name : Piza</h2>
+            <h2 className="card-title">&nbsp;&nbsp;Name : Beacon</h2>
             <p>
-              &nbsp;&nbsp;Gender : Girls
+              &nbsp;&nbsp;Gender : Boy
               <br />
               &nbsp;&nbsp;Age : 9 Year
               <br />
@@ -471,9 +471,9 @@ function CatsPage() {
             <img src={Yeti} alt="Album" />
           </figure>
           <div className="card-body ">
-            <h2 className="card-title">&nbsp;&nbsp;Name : Piza</h2>
+            <h2 className="card-title">&nbsp;&nbsp;Name : Yeti</h2>
             <p>
-              &nbsp;&nbsp;Gender : Girls
+              &nbsp;&nbsp;Gender : Boy
               <br />
               &nbsp;&nbsp;Age : 9 Year
               <br />
@@ -490,7 +490,7 @@ function CatsPage() {
             <img src={Tako} alt="Album" />
           </figure>
           <div className="card-body ">
-            <h2 className="card-title">&nbsp;&nbsp;Name : Piza</h2>
+            <h2 className="card-title">&nbsp;&nbsp;Name : Tako</h2>
             <p>
               &nbsp;&nbsp;Gender : Girls
               <br />
@@ -509,9 +509,9 @@ function CatsPage() {
             <img src={Buby} alt="Album" />
           </figure>
           <div className="card-body ">
-            <h2 className="card-title">&nbsp;&nbsp;Name : Piza</h2>
+            <h2 className="card-title">&nbsp;&nbsp;Name : Buby</h2>
             <p>
-              &nbsp;&nbsp;Gender : Girls
+              &nbsp;&nbsp;Gender : Boy
               <br />
               &nbsp;&nbsp;Age : 9 Year
               <br />
@@ -528,9 +528,9 @@ function CatsPage() {
             <img src={Udong} alt="Album" />
           </figure>
           <div className="card-body ">
-            <h2 className="card-title">&nbsp;&nbsp;Name : Piza</h2>
+            <h2 className="card-title">&nbsp;&nbsp;Name : Udong</h2>
             <p>
-              &nbsp;&nbsp;Gender : Girls
+              &nbsp;&nbsp;Gender : Boy
               <br />
               &nbsp;&nbsp;Age : 9 Year
               <br />
@@ -547,7 +547,7 @@ function CatsPage() {
             <img src={MiwMiw} alt="Album" />
           </figure>
           <div className="card-body ">
-            <h2 className="card-title">&nbsp;&nbsp;Name : Piza</h2>
+            <h2 className="card-title">&nbsp;&nbsp;Name : MiwMiw</h2>
             <p>
               &nbsp;&nbsp;Gender : Girls
               <br />
@@ -566,7 +566,7 @@ function CatsPage() {
             <img src={Japba} alt="Album" />
           </figure>
           <div className="card-body ">
-            <h2 className="card-title">&nbsp;&nbsp;Name : Piza</h2>
+            <h2 className="card-title">&nbsp;&nbsp;Name : Japba</h2>
             <p>
               &nbsp;&nbsp;Gender : Girls
               <br />
@@ -585,7 +585,7 @@ function CatsPage() {
             <img src={Toro} alt="Album" />
           </figure>
           <div className="card-body ">
-            <h2 className="card-title">&nbsp;&nbsp;Name : Piza</h2>
+            <h2 className="card-title">&nbsp;&nbsp;Name : Taro</h2>
             <p>
               &nbsp;&nbsp;Gender : Girls
               <br />
@@ -627,9 +627,9 @@ function CatsPage() {
             <img src={aifel} alt="Album" />
           </figure>
           <div className="card-body ">
-            <h2 className="card-title">&nbsp;&nbsp;Name : Piza</h2>
+            <h2 className="card-title">&nbsp;&nbsp;Name : Aifel</h2>
             <p>
-              &nbsp;&nbsp;Gender : Girls
+              &nbsp;&nbsp;Gender : Boy
               <br />
               &nbsp;&nbsp;Age : 9 Year
               <br />

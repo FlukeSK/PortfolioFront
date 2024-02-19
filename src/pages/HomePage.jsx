@@ -4,9 +4,9 @@ import Menu from "../layouts/Menu";
 import Footer from "../layouts/Footer";
 import LogoCat from "../layouts/LogoCat";
 
-import Piza from "../assets/Cats/Piza.jpg";
+import Piza from "../assets/Cats/Piza.jpg"
 import Happy from "../assets/Cats/Happy.jpg";
-import Poppy from "../assets/Cats/poppy.jpg";
+import Bobby from "../assets/Cats/bobby - boy.jpg";
 
 function HomePage() {
   return (
@@ -51,7 +51,7 @@ function HomePage() {
         <div className=" border-pink-300 border-x-4 border-y-4 rounded-xl">
           <img
             className=" rounded-none h-auto w-[10rem]"
-            src={Poppy}
+            src={Bobby}
             alt="image description"
           />
           <button
