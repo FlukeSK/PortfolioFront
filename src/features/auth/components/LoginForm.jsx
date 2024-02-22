@@ -10,7 +10,7 @@ export default function LoginForm() {
   const [input, setInput] = useState({ emailOrMobile: '', password: '' });
   const [error, setError] = useState({});
 
-  const { login } = useAuth() || {};
+  const { login } = useAuth();
   if (login) {
     console.log(login)
   } else {
@@ -27,7 +27,7 @@ export default function LoginForm() {
       }
 
       await login(input);
-      toast.success('login successfully');
+      toast.success('login successfully');  
     } catch (err) {
       console.log(err);
       toast.error(err.response?.data.message);

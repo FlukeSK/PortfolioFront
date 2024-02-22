@@ -1,11 +1,13 @@
-import React from 'react';
-import LogoCat from "../assets/Info/LOGO.png";
+import React from "react";
+import Menu from "./Menu";
 
 // =============== < Function > =============== //
 export default function Header() {
   return (
-    <div className='flex justify-center items-center'>
-    <img src={LogoCat} alt="Logo" />
-  </div>
-  )
+    <div className=" bg-pink-400">
+      <div>
+        <Menu />
+      </div>
+    </div>
+  );
 }

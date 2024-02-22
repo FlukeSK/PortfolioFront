@@ -1,28 +1,28 @@
 import React from "react";
 import "../index.css";
-import { Link } from "react-router-dom";
 
 // =============== < Function > =============== //
 export default function Menu() {
   // =============== < Return > =============== //
   return (
-    <div>
+    <nav>
       <div>
-        <div
-          className="bg-pink-400 flex justify-between items-between"
-        >
-          <ul  role="button" className="flex justify-between items-start p-4 m-2 gap-4 text-white font-semibold">
+        <div className="flex justify-between items-between">
+          <ul
+            role="button"
+            className="flex justify-between items-start p-4 m-2 gap-4 text-white font-semibold"
+          >
             <li>
-              <a href="/home">Home</a>
+              <a href="/">Home</a>
             </li>
 
             <li>
               <a href="/cat">Cat</a>
             </li>
 
-              <li>
-                <a href="/food">Food</a>
-              </li>
+            <li>
+              <a href="/food">Food</a>
+            </li>
 
             <li>
               <a href="/queue">Queue</a>
@@ -42,26 +42,26 @@ export default function Menu() {
                   true ? (
                     <>
                       <li>
-                        <a href="/login">Logout</a>
+                        <a href="/">Logout</a>
                       </li>
 
                       <li>
-                        <a href="/">Check User</a>
+                        <a href="/checkuser">Check User</a>
                       </li>
 
                       <li>
-                        <a href="/">Check Queue</a>
+                        <a href="/checkqueue">Check Queue</a>
                       </li>
                     </>
                   ) : (
                     // ===== User =====
                     <>
                       <li>
-                        <a href="/login">Logout</a>
+                        <a href="/">Logout</a>
                       </li>
 
                       <li>
-                        <a href="/">Change Password</a>
+                        <a href="/changepassword">Change Password</a>
                       </li>
                     </>
                   )
@@ -78,6 +78,6 @@ export default function Menu() {
           </div>
         </div>
       </div>
-    </div>
+    </nav>
   );
 }

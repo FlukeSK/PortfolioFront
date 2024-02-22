@@ -90,6 +90,28 @@ export default function RegisterForm({ onSuccess }) {
             />
           </div>
 
+          {/* ========== < Email > ========== */}
+          {/* <div className="col-span-full">
+            <Input
+              placeholder="Email address"
+              value={input.email}
+              name="email"
+              onChange={handleChangeInput}
+              errorMessage={error.email}
+            />
+          </div> */}
+
+          {/* ========== < mobile > ========== */}
+          {/* <div className="col-span-full">
+            <Input
+              placeholder="mobile number"
+              value={input.mobile}
+              name="mobile"
+              onChange={handleChangeInput}
+              errorMessage={error.mobile}
+            />
+          </div> */}
+
           {/* ========== < Password > ========== */}
           <div className="col-span-full">
             <Input

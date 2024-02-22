@@ -48,7 +48,7 @@ function QuePage() {
         <div>
           <input
             type="date"
-            // value={date}
+            value="date"
             onChange={(e) => {
               setDate(e.target.value);
             }}
@@ -57,7 +57,7 @@ function QuePage() {
             type="time"
             max={"20:00"}
             min={"11:00"}
-            // value={hr}
+            value="hr"
             onChange={(e) => {
               setDate(e.target.value);
             }}

@@ -9,9 +9,13 @@ import Container from "../layouts/Container";
 import RedirectIfAuthenticated from "../features/auth/components/RedirectIfAuthenticated";
 import ProtectedRoute from "../features/auth/components/ProtectedRoute";
 
+import CheckUser from "../pages/CheckUser";
+import CheckQueue from "../pages/CheckQueue";
+import ChangPassword from "../pages/ChangePassword";
+
 const router = createBrowserRouter([
   {
-    path: "/login",
+    path: "login",
     element: (
       <RedirectIfAuthenticated>
         <LoginPage />
@@ -27,7 +31,7 @@ const router = createBrowserRouter([
     ),
     children: [
       {
-        path: "home",
+        path: "",
         element: <HomePage />,
       },
       {
@@ -39,12 +43,24 @@ const router = createBrowserRouter([
         element: <FoodPage />,
       },
       {
+        path: "info",
+        element: <InfoPage />,
+      },
+      {
         path: "queue",
         element: <QueuePage />,
       },
       {
-        path: "info",
-        element: <InfoPage />,
+        path: "checkuser",
+        element: <CheckUser />,
+      },
+      {
+        path: "checkqueue",
+        element: <CheckQueue />,
+      },
+      {
+        path: "changepassword",
+        element: <ChangPassword />,
       },
     ],
   },

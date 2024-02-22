@@ -39,24 +39,100 @@ function CatsPage() {
     // ========== Start ========== //
     <>
       <Menu />
-      <div className="flex justify-center items-center">
+      <div className=" flex justify-center items-center">
         <img
-          className=" rounded-none h-auto max-w-full "
+          className="rounded-none h-auto max-w-full "
           src={Cats}
           alt="image description"
         />
       </div>
       <br />
-<div>
-      <h1 className="flex justify-center items-center font-bold text-gray-600 text-[2rem] p-2">
+      <div>
+        <h1 className="flex justify-center items-center font-bold text-gray-600 text-[2rem] p-2">
           Family CaturdayCat Cafe
         </h1>
-        </div>
-<br />
+      </div>
+      <br />
 
-      {/* ========== Card 01 ========== */}
+      {/* ========== Card 01-A ========== */}
       <div className="flex justify-between items-baseline px-8">
+        <div className="card lg:card-side bg-base-100 shadow-xl w-[12rem] border border-x-2 border-y-2 border-cyan-400">
+          <figure>
+            <img src={Beacon} alt="Album" />
+          </figure>
+          <div className="card-body ">
+            <h2 className="card-title">&nbsp;&nbsp;Name : Beacon</h2>
+            <p>
+              &nbsp;&nbsp;Gender : Boy
+              <br />
+              &nbsp;&nbsp;Age : 7 Year
+              <br />
+              &nbsp;&nbsp;Breed : Exotic
+              <br />
+              &nbsp;&nbsp;Like : Cat Snack
+            </p>
+          </div>
+        </div>
+
+        {/* ========== Card 02-A ========== */}
+        <div className="card lg:card-side bg-base-100 shadow-xl w-[12rem] border border-cyan-400 border-x-2 border-y-2 ">
+          <figure>
+            <img src={Buby} alt="Album" />
+          </figure>
+          <div className="card-body ">
+            <h2 className="card-title">&nbsp;&nbsp;Name : Buby</h2>
+            <p>
+              &nbsp;&nbsp;Gender : Boy
+              <br />
+              &nbsp;&nbsp;Age : 7 Year
+              <br />
+              &nbsp;&nbsp;Breed : Exotic
+              <br />
+              &nbsp;&nbsp;Like : Chicken
+            </p>
+          </div>
+        </div>
+
+        {/* ========== Card 03-A ========== */}
         <div className="card lg:card-side bg-base-100 shadow-xl w-[12rem] border border-x-2 border-y-2 border-pink-400">
+          <figure>
+            <img src={Japba} alt="Album" />
+          </figure>
+          <div className="card-body ">
+            <h2 className="card-title">&nbsp;&nbsp;Name : Japba</h2>
+            <p>
+              &nbsp;&nbsp;Gender : Girls
+              <br />
+              &nbsp;&nbsp;Age : 7 Year
+              <br />
+              &nbsp;&nbsp;Breed : Exotic
+              <br />
+              &nbsp;&nbsp;Like : Chicken
+            </p>
+          </div>
+        </div>
+
+        {/* ========== Card 04-A ========== */}
+        <div className="card lg:card-side bg-base-100 shadow-xl w-[12rem] border border-cyan-400 border-x-2 border-y-2 ">
+          <figure>
+            <img src={aifel} alt="Album" />
+          </figure>
+          <div className="card-body ">
+            <h2 className="card-title">&nbsp;&nbsp;Name : Aifel</h2>
+            <p>
+              &nbsp;&nbsp;Gender : Boy
+              <br />
+              &nbsp;&nbsp;Age : 10 Year
+              <br />
+              &nbsp;&nbsp;Breed : Munchkin
+              <br />
+              &nbsp;&nbsp;Like : Cat Snack
+            </p>
+          </div>
+        </div>
+
+        {/* ========== Card 05-A ========== */}
+        <div className="card lg:card-side bg-base-100 shadow-xl w-[12rem] border border-pink-400 border-x-2 border-y-2 ">
           <figure>
             <img src={Piza} alt="Album" />
           </figure>
@@ -69,50 +145,169 @@ function CatsPage() {
               <br />
               &nbsp;&nbsp;Breed : Munchkin
               <br />
-              &nbsp;&nbsp;Like : Chicken
+              &nbsp;&nbsp;Like : Tuna
             </p>
           </div>
         </div>
 
-        {/* ========== Card 02 ========== */}
+        {/* ========== Card 06-A ========== */}
         <div className="card lg:card-side bg-base-100 shadow-xl w-[12rem] border border-cyan-400 border-x-2 border-y-2 ">
           <figure>
             <img src={Happy} alt="Album" />
           </figure>
           <div className="card-body ">
-            <h2 className="card-title">&nbsp;&nbsp;Name : Happy</h2>
+            <h2 className="card-title">&nbsp;&nbsp;Name : Bobby</h2>
             <p>
               &nbsp;&nbsp;Gender : Boy
               <br />
-              &nbsp;&nbsp;Age : 5 Year
+              &nbsp;&nbsp;Age : 6 Year
               <br />
               &nbsp;&nbsp;Breed : Munchkin
               <br />
-              &nbsp;&nbsp;Like : Tuna
+              &nbsp;&nbsp;Like : Chicken
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <br />
+      {/* ========== Card 07-B ========== */}
+      <div className="flex justify-between items-baseline px-8">
+        <div className="card lg:card-side bg-base-100 shadow-xl w-[12rem] border border-cyan-400 border-x-2 border-y-2 ">
+          <figure>
+            <img src={Krai} alt="Album" />
+          </figure>
+          <div className="card-body ">
+            <h2 className="card-title">&nbsp;&nbsp;Name : Krai</h2>
+            <p>
+              &nbsp;&nbsp;Gender : Boy
+              <br />
+              &nbsp;&nbsp;Age : 10 Year
+              <br />
+              &nbsp;&nbsp;Breed : American Shorthair
+              <br />
+              &nbsp;&nbsp;Like : Cat Snack
+            </p>
+          </div>
+        </div>
+        {/* ========== Card 08-B ========== */}
+        <div className="card lg:card-side bg-base-100 shadow-xl w-[12rem] border border-pink-400 border-x-2 border-y-2 ">
+          <figure>
+            <img src={Winter} alt="Album" />
+          </figure>
+          <div className="card-body ">
+            <h2 className="card-title">&nbsp;&nbsp;Name : Winter</h2>
+            <p>
+              &nbsp;&nbsp;Gender : Girl
+              <br />
+              &nbsp;&nbsp;Age : 6 Year
+              <br />
+              &nbsp;&nbsp;Breed : British Shorthair
+              <br />
+              &nbsp;&nbsp;Like : Chicken
             </p>
           </div>
         </div>
 
-        {/* ========== Card 03 ========== */}
-        <div className="card lg:card-side bg-base-100 shadow-xl w-[12rem] border border-x-2 border-y-2 border-pink-400">
+        {/* ========== Card 09-B ========== */}
+        <div className="card lg:card-side bg-base-100 shadow-xl w-[12rem] border border-pink-400 border-x-2 border-y-2 ">
           <figure>
-            <img src={Anya} alt="Album" />
+            <img src={Misty} alt="Album" />
           </figure>
           <div className="card-body ">
-            <h2 className="card-title">&nbsp;&nbsp;Name : Anya</h2>
+            <h2 className="card-title">&nbsp;&nbsp;Name : Misty</h2>
             <p>
               &nbsp;&nbsp;Gender : Girls
               <br />
-              &nbsp;&nbsp;Age : 2 Year
+              &nbsp;&nbsp;Age : 7 Year
               <br />
-              &nbsp;&nbsp;Breed : Scottish
+              &nbsp;&nbsp;Breed : British Shorthair
+              <br />
+              &nbsp;&nbsp;Like : Cat Snack
+            </p>
+          </div>
+        </div>
+
+        {/* ========== Card 10-B ========== */}
+        <div className="card lg:card-side bg-base-100 shadow-xl w-[12rem] border border-cyan-400 border-x-2 border-y-2 ">
+          <figure>
+            <img src={Mika} alt="Album" />
+          </figure>
+          <div className="card-body ">
+            <h2 className="card-title">&nbsp;&nbsp;Name : Mika</h2>
+            <p>
+              &nbsp;&nbsp;Gender : Boy
+              <br />
+              &nbsp;&nbsp;Age : 10 Year
+              <br />
+              &nbsp;&nbsp;Breed : British Shorthair
               <br />
               &nbsp;&nbsp;Like : Tuna
             </p>
           </div>
         </div>
 
-        {/* ========== Card 04 ========== */}
+        {/* ========== Card 11-B ========== */}
+        <div className="card lg:card-side bg-base-100 shadow-xl w-[12rem] border border-cyan-400 border-x-2 border-y-2 ">
+          <figure>
+            <img src={Harry} alt="Album" />
+          </figure>
+          <div className="card-body ">
+            <h2 className="card-title">&nbsp;&nbsp;Name : Harry</h2>
+            <p>
+              &nbsp;&nbsp;Gender : Boy
+              <br />
+              &nbsp;&nbsp;Age : 4 Year
+              <br />
+              &nbsp;&nbsp;Breed : British Shorthair
+              <br />
+              &nbsp;&nbsp;Like : Cat Snack
+            </p>
+          </div>
+        </div>
+
+        {/* ========== Card 12-B ========== */}
+        <div className="card lg:card-side bg-base-100 shadow-xl w-[12rem] border border-cyan-400 border-x-2 border-y-2 ">
+          <figure>
+            <img src={Zaicrop} alt="Album" />
+          </figure>
+          <div className="card-body ">
+            <h2 className="card-title">&nbsp;&nbsp;Name : Zaicrop</h2>
+            <p>
+              &nbsp;&nbsp;Gender : Boy
+              <br />
+              &nbsp;&nbsp;Age : 7 Year
+              <br />
+              &nbsp;&nbsp;Breed : Persian
+              <br />
+              &nbsp;&nbsp;Like : Chicken
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <br />
+      {/* ========== Card 13-C ========== */}
+      <div className="flex justify-between items-baseline px-8">
+        <div className="card lg:card-side bg-base-100 shadow-xl w-[12rem] border border-pink-400 border-x-2 border-y-2 ">
+          <figure>
+            <img src={MiwMiw} alt="Album" />
+          </figure>
+          <div className="card-body ">
+            <h2 className="card-title">&nbsp;&nbsp;Name : MiwMiw</h2>
+            <p>
+              &nbsp;&nbsp;Gender : Girl
+              <br />
+              &nbsp;&nbsp;Age : 10 Year
+              <br />
+              &nbsp;&nbsp;Breed : Persian
+              <br />
+              &nbsp;&nbsp;Like : Cat Snack
+            </p>
+          </div>
+        </div>
+
+        {/* ========== Card 14-C ========== */}
         <div className="card lg:card-side bg-base-100 shadow-xl w-[12rem] border border-cyan-400 border-x-2 border-y-2 ">
           <figure>
             <img src={Frodo} alt="Album" />
@@ -124,150 +319,33 @@ function CatsPage() {
               <br />
               &nbsp;&nbsp;Age : 9 Year
               <br />
-              &nbsp;&nbsp;Breed : Kinkarol
+              &nbsp;&nbsp;Breed : Kinkalow
               <br />
               &nbsp;&nbsp;Like : Tuna
             </p>
           </div>
         </div>
 
-        {/* ========== Card 05 ========== */}
-        <div className="card lg:card-side bg-base-100 shadow-xl w-[12rem] border border-pink-400 border-x-2 border-y-2 ">
-          <figure>
-            <img src={BingBong} alt="Album" />
-          </figure>
-          <div className="card-body ">
-            <h2 className="card-title">&nbsp;&nbsp;Name : BingBong</h2>
-            <p>
-              &nbsp;&nbsp;Gender : Girls
-              <br />
-              &nbsp;&nbsp;Age : 9 Year
-              <br />
-              &nbsp;&nbsp;Breed : Munchkin
-              <br />
-              &nbsp;&nbsp;Like : Tuna
-            </p>
-          </div>
-        </div>
-
-        {/* ========== Card 06 ========== */}
+        {/* ========== Card 15-C ========== */}
         <div className="card lg:card-side bg-base-100 shadow-xl w-[12rem] border border-cyan-400 border-x-2 border-y-2 ">
           <figure>
-            <img src={Bobby} alt="Album" />
+            <img src={Yeti} alt="Album" />
           </figure>
           <div className="card-body ">
-            <h2 className="card-title">&nbsp;&nbsp;Name : Bobby</h2>
+            <h2 className="card-title">&nbsp;&nbsp;Name : Yeti</h2>
             <p>
               &nbsp;&nbsp;Gender : Boy
               <br />
-              &nbsp;&nbsp;Age : 9 Year
+              &nbsp;&nbsp;Age : 11 Year
               <br />
-              &nbsp;&nbsp;Breed : Munchkin
+              &nbsp;&nbsp;Breed : Himalayan
               <br />
-              &nbsp;&nbsp;Like : Tuna
+              &nbsp;&nbsp;Like : Chicken
             </p>
           </div>
         </div>
 
-        {/* ========== Card 07 ========== */}
-        <div className="card lg:card-side bg-base-100 shadow-xl w-[12rem] border border-cyan-400 border-x-2 border-y-2 ">
-          <figure>
-            <img src={Mika} alt="Album" />
-          </figure>
-          <div className="card-body ">
-            <h2 className="card-title">&nbsp;&nbsp;Name : Mika</h2>
-            <p>
-              &nbsp;&nbsp;Gender : Boy
-              <br />
-              &nbsp;&nbsp;Age : 9 Year
-              <br />
-              &nbsp;&nbsp;Breed : Munchkin
-              <br />
-              &nbsp;&nbsp;Like : Tuna
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <br />
-      {/* ========== Card 08 ========== */}
-      <div className="flex justify-between items-baseline px-8">
-        <div className="card lg:card-side bg-base-100 shadow-xl w-[12rem] border border-cyan-400 border-x-2 border-y-2 ">
-          <figure>
-            <img src={Shimp} alt="Album" />
-          </figure>
-          <div className="card-body ">
-            <h2 className="card-title">&nbsp;&nbsp;Name : Shimp</h2>
-            <p>
-              &nbsp;&nbsp;Gender : Boy
-              <br />
-              &nbsp;&nbsp;Age : 9 Year
-              <br />
-              &nbsp;&nbsp;Breed : Munchkin
-              <br />
-              &nbsp;&nbsp;Like : Tuna
-            </p>
-          </div>
-        </div>
-
-        {/* ========== Card 09 ========== */}
-        <div className="card lg:card-side bg-base-100 shadow-xl w-[12rem] border border-pink-400 border-x-2 border-y-2 ">
-          <figure>
-            <img src={OneDa} alt="Album" />
-          </figure>
-          <div className="card-body ">
-            <h2 className="card-title">&nbsp;&nbsp;Name : OneDa</h2>
-            <p>
-              &nbsp;&nbsp;Gender : Girls
-              <br />
-              &nbsp;&nbsp;Age : 9 Year
-              <br />
-              &nbsp;&nbsp;Breed : Munchkin
-              <br />
-              &nbsp;&nbsp;Like : Tuna
-            </p>
-          </div>
-        </div>
-
-        {/* ========== Card 10 ========== */}
-        <div className="card lg:card-side bg-base-100 shadow-xl w-[12rem] border border-cyan-400 border-x-2 border-y-2 ">
-          <figure>
-            <img src={Krai} alt="Album" />
-          </figure>
-          <div className="card-body ">
-            <h2 className="card-title">&nbsp;&nbsp;Name : Krai</h2>
-            <p>
-              &nbsp;&nbsp;Gender : Boy
-              <br />
-              &nbsp;&nbsp;Age : 9 Year
-              <br />
-              &nbsp;&nbsp;Breed : Munchkin
-              <br />
-              &nbsp;&nbsp;Like : Tuna
-            </p>
-          </div>
-        </div>
-
-        {/* ========== Card 11 ========== */}
-        <div className="card lg:card-side bg-base-100 shadow-xl w-[12rem] border border-cyan-400 border-x-2 border-y-2 ">
-          <figure>
-            <img src={Lika} alt="Album" />
-          </figure>
-          <div className="card-body ">
-            <h2 className="card-title">&nbsp;&nbsp;Name : Lika</h2>
-            <p>
-              &nbsp;&nbsp;Gender : Boy
-              <br />
-              &nbsp;&nbsp;Age : 9 Year
-              <br />
-              &nbsp;&nbsp;Breed : Munchkin
-              <br />
-              &nbsp;&nbsp;Like : Tuna
-            </p>
-          </div>
-        </div>
-
-        {/* ========== Card 12 ========== */}
+        {/* ========== Card 16-C ========== */}
         <div className="card lg:card-side bg-base-100 shadow-xl w-[12rem] border border-cyan-400 border-x-2 border-y-2 ">
           <figure>
             <img src={Zimba} alt="Album" />
@@ -279,14 +357,14 @@ function CatsPage() {
               <br />
               &nbsp;&nbsp;Age : 9 Year
               <br />
-              &nbsp;&nbsp;Breed : Munchkin
+              &nbsp;&nbsp;Breed : Maine Coon
               <br />
-              &nbsp;&nbsp;Like : Tuna
+              &nbsp;&nbsp;Like : Party Mix
             </p>
           </div>
         </div>
 
-        {/* ========== Card 13 ========== */}
+        {/* ========== Card 17-C ========== */}
         <div className="card lg:card-side bg-base-100 shadow-xl w-[12rem] border border-cyan-400 border-x-2 border-y-2 ">
           <figure>
             <img src={Bozo} alt="Album" />
@@ -296,58 +374,57 @@ function CatsPage() {
             <p>
               &nbsp;&nbsp;Gender : Boy
               <br />
-              &nbsp;&nbsp;Age : 9 Year
+              &nbsp;&nbsp;Age : 6 Year
               <br />
-              &nbsp;&nbsp;Breed : Munchkin
+              &nbsp;&nbsp;Breed : Maine Coon
               <br />
-              &nbsp;&nbsp;Like : Tuna
+              &nbsp;&nbsp;Like : Cat Snack
             </p>
           </div>
         </div>
 
-        {/* ========== Card 14 ========== */}
+        {/* ========== Card 18-C ========== */}
         <div className="card lg:card-side bg-base-100 shadow-xl w-[12rem] border border-cyan-400 border-x-2 border-y-2 ">
           <figure>
-            <img src={Zaicrop} alt="Album" />
+            <img src={Lika} alt="Album" />
           </figure>
           <div className="card-body ">
-            <h2 className="card-title">&nbsp;&nbsp;Name : Zaicrop</h2>
+            <h2 className="card-title">&nbsp;&nbsp;Name : Lika</h2>
             <p>
               &nbsp;&nbsp;Gender : Boy
               <br />
-              &nbsp;&nbsp;Age : 9 Year
+              &nbsp;&nbsp;Age : 6 Year
               <br />
-              &nbsp;&nbsp;Breed : Munchkin
+              &nbsp;&nbsp;Breed : Maine Coon
               <br />
-              &nbsp;&nbsp;Like : Tuna
+              &nbsp;&nbsp;Like : Chicken
             </p>
           </div>
         </div>
       </div>
-
       <br />
 
-      {/* ========== Card 15 ========== */}
+      {/* ========== Card 19-D ========== */}
       <div className="flex justify-between items-baseline px-8">
-        <div className="card lg:card-side bg-base-100 shadow-xl w-[12rem] border border-cyan-400 border-x-2 border-y-2 ">
+        <div className="card lg:card-side bg-base-100 shadow-xl w-[12rem] border border-pink-400 border-x-2 border-y-2 ">
           <figure>
-            <img src={Grayteal} alt="Album" />
+            <img src={Fyby} alt="Album" />
           </figure>
           <div className="card-body ">
-            <h2 className="card-title">&nbsp;&nbsp;Name : Grayteal</h2>
+            <h2 className="card-title">&nbsp;&nbsp;Name : Fyby</h2>
             <p>
-              &nbsp;&nbsp;Gender : Boy
+              &nbsp;&nbsp;Gender : Girl
               <br />
-              &nbsp;&nbsp;Age : 9 Year
+              &nbsp;&nbsp;Age : 5 Year
               <br />
-              &nbsp;&nbsp;Breed : Munchkin
+              &nbsp;&nbsp;Breed : Scottish Fold
               <br />
               &nbsp;&nbsp;Like : Tuna
             </p>
           </div>
         </div>
 
-        {/* ========== Card 16 ========== */}
+        {/* ========== Card 20-D ========== */}
         <div className="card lg:card-side bg-base-100 shadow-xl w-[12rem] border border-cyan-400 border-x-2 border-y-2 ">
           <figure>
             <img src={Eongtrong} alt="Album" />
@@ -357,172 +434,35 @@ function CatsPage() {
             <p>
               &nbsp;&nbsp;Gender : Boy
               <br />
-              &nbsp;&nbsp;Age : 9 Year
+              &nbsp;&nbsp;Age : 6 Year
               <br />
-              &nbsp;&nbsp;Breed : Munchkin
+              &nbsp;&nbsp;Breed : Scottish Fold
               <br />
-              &nbsp;&nbsp;Like : Tuna
+              &nbsp;&nbsp;Like : Cat Snack
             </p>
           </div>
         </div>
 
-        {/* ========== Card 17 ========== */}
-        <div className="card lg:card-side bg-base-100 shadow-xl w-[12rem] border border-pink-400 border-x-2 border-y-2 ">
-          <figure>
-            <img src={Winter} alt="Album" />
-          </figure>
-          <div className="card-body ">
-            <h2 className="card-title">&nbsp;&nbsp;Name : Winter</h2>
-            <p>
-              &nbsp;&nbsp;Gender : Girls
-              <br />
-              &nbsp;&nbsp;Age : 9 Year
-              <br />
-              &nbsp;&nbsp;Breed : Munchkin
-              <br />
-              &nbsp;&nbsp;Like : Tuna
-            </p>
-          </div>
-        </div>
-
-        {/* ========== Card 18 ========== */}
-        <div className="card lg:card-side bg-base-100 shadow-xl w-[12rem] border border-pink-400 border-x-2 border-y-2 ">
-          <figure>
-            <img src={Misty} alt="Album" />
-          </figure>
-          <div className="card-body ">
-            <h2 className="card-title">&nbsp;&nbsp;Name : Misty</h2>
-            <p>
-              &nbsp;&nbsp;Gender : Girls
-              <br />
-              &nbsp;&nbsp;Age : 9 Year
-              <br />
-              &nbsp;&nbsp;Breed : Munchkin
-              <br />
-              &nbsp;&nbsp;Like : Tuna
-            </p>
-          </div>
-        </div>
-
-        {/* ========== Card 19 ========== */}
-        <div className="card lg:card-side bg-base-100 shadow-xl w-[12rem] border border-pink-400 border-x-2 border-y-2 ">
-          <figure>
-            <img src={Fyby} alt="Album" />
-          </figure>
-          <div className="card-body ">
-            <h2 className="card-title">&nbsp;&nbsp;Name : Fyby</h2>
-            <p>
-              &nbsp;&nbsp;Gender : Girls
-              <br />
-              &nbsp;&nbsp;Age : 9 Year
-              <br />
-              &nbsp;&nbsp;Breed : Munchkin
-              <br />
-              &nbsp;&nbsp;Like : Tuna
-            </p>
-          </div>
-        </div>
-
-        {/* ========== Card 20 ========== */}
+        {/* ========== Card 21-D ========== */}
         <div className="card lg:card-side bg-base-100 shadow-xl w-[12rem] border border-cyan-400 border-x-2 border-y-2 ">
           <figure>
-            <img src={Harry} alt="Album" />
+            <img src={Shimp} alt="Album" />
           </figure>
           <div className="card-body ">
-            <h2 className="card-title">&nbsp;&nbsp;Name : Harry</h2>
+            <h2 className="card-title">&nbsp;&nbsp;Name : Shimp</h2>
             <p>
               &nbsp;&nbsp;Gender : Boy
               <br />
-              &nbsp;&nbsp;Age : 9 Year
+              &nbsp;&nbsp;Age : 5 Year
               <br />
-              &nbsp;&nbsp;Breed : Munchkin
+              &nbsp;&nbsp;Breed : Scottish Fold
               <br />
-              &nbsp;&nbsp;Like : Tuna
+              &nbsp;&nbsp;Like : Cat Snack
             </p>
           </div>
         </div>
 
-        {/* ========== Card 21 ========== */}
-        <div className="card lg:card-side bg-base-100 shadow-xl w-[12rem] border border-cyan-400 border-x-2 border-y-2 ">
-          <figure>
-            <img src={Beacon} alt="Album" />
-          </figure>
-          <div className="card-body ">
-            <h2 className="card-title">&nbsp;&nbsp;Name : Beacon</h2>
-            <p>
-              &nbsp;&nbsp;Gender : Boy
-              <br />
-              &nbsp;&nbsp;Age : 9 Year
-              <br />
-              &nbsp;&nbsp;Breed : Munchkin
-              <br />
-              &nbsp;&nbsp;Like : Tuna
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <br />
-
-      {/* ========== Card 23 ========== */}
-      <div className="flex justify-between items-baseline px-8">
-        <div className="card lg:card-side bg-base-100 shadow-xl w-[12rem] border border-cyan-400 border-x-2 border-y-2 ">
-          <figure>
-            <img src={Yeti} alt="Album" />
-          </figure>
-          <div className="card-body ">
-            <h2 className="card-title">&nbsp;&nbsp;Name : Yeti</h2>
-            <p>
-              &nbsp;&nbsp;Gender : Boy
-              <br />
-              &nbsp;&nbsp;Age : 9 Year
-              <br />
-              &nbsp;&nbsp;Breed : Munchkin
-              <br />
-              &nbsp;&nbsp;Like : Tuna
-            </p>
-          </div>
-        </div>
-
-        {/* ========== Card 24 ========== */}
-        <div className="card lg:card-side bg-base-100 shadow-xl w-[12rem] border border-pink-400 border-x-2 border-y-2 ">
-          <figure>
-            <img src={Tako} alt="Album" />
-          </figure>
-          <div className="card-body ">
-            <h2 className="card-title">&nbsp;&nbsp;Name : Tako</h2>
-            <p>
-              &nbsp;&nbsp;Gender : Girls
-              <br />
-              &nbsp;&nbsp;Age : 9 Year
-              <br />
-              &nbsp;&nbsp;Breed : Munchkin
-              <br />
-              &nbsp;&nbsp;Like : Tuna
-            </p>
-          </div>
-        </div>
-
-        {/* ========== Card 25 ========== */}
-        <div className="card lg:card-side bg-base-100 shadow-xl w-[12rem] border border-cyan-400 border-x-2 border-y-2 ">
-          <figure>
-            <img src={Buby} alt="Album" />
-          </figure>
-          <div className="card-body ">
-            <h2 className="card-title">&nbsp;&nbsp;Name : Buby</h2>
-            <p>
-              &nbsp;&nbsp;Gender : Boy
-              <br />
-              &nbsp;&nbsp;Age : 9 Year
-              <br />
-              &nbsp;&nbsp;Breed : Munchkin
-              <br />
-              &nbsp;&nbsp;Like : Tuna
-            </p>
-          </div>
-        </div>
-
-        {/* ========== Card 26 ========== */}
+        {/* ========== Card 23-D ========== */}
         <div className="card lg:card-side bg-base-100 shadow-xl w-[12rem] border border-cyan-400 border-x-2 border-y-2 ">
           <figure>
             <img src={Udong} alt="Album" />
@@ -532,135 +472,154 @@ function CatsPage() {
             <p>
               &nbsp;&nbsp;Gender : Boy
               <br />
-              &nbsp;&nbsp;Age : 9 Year
+              &nbsp;&nbsp;Age : 5 Year
               <br />
-              &nbsp;&nbsp;Breed : Munchkin
-              <br />
-              &nbsp;&nbsp;Like : Tuna
-            </p>
-          </div>
-        </div>
-
-        {/* ========== Card 27 ========== */}
-        <div className="card lg:card-side bg-base-100 shadow-xl w-[12rem] border border-pink-400 border-x-2 border-y-2 ">
-          <figure>
-            <img src={MiwMiw} alt="Album" />
-          </figure>
-          <div className="card-body ">
-            <h2 className="card-title">&nbsp;&nbsp;Name : MiwMiw</h2>
-            <p>
-              &nbsp;&nbsp;Gender : Girls
-              <br />
-              &nbsp;&nbsp;Age : 9 Year
-              <br />
-              &nbsp;&nbsp;Breed : Munchkin
+              &nbsp;&nbsp;Breed : <br />
+              Scottish Fold + Exotic
               <br />
               &nbsp;&nbsp;Like : Tuna
             </p>
           </div>
         </div>
 
-        {/* ========== Card 28 ========== */}
-        <div className="card lg:card-side bg-base-100 shadow-xl w-[12rem] border border-pink-400 border-x-2 border-y-2 ">
-          <figure>
-            <img src={Japba} alt="Album" />
-          </figure>
-          <div className="card-body ">
-            <h2 className="card-title">&nbsp;&nbsp;Name : Japba</h2>
-            <p>
-              &nbsp;&nbsp;Gender : Girls
-              <br />
-              &nbsp;&nbsp;Age : 9 Year
-              <br />
-              &nbsp;&nbsp;Breed : Munchkin
-              <br />
-              &nbsp;&nbsp;Like : Tuna
-            </p>
-          </div>
-        </div>
-
-        {/* ========== Card 29 ========== */}
+        {/* ========== Card 24-D ========== */}
         <div className="card lg:card-side bg-base-100 shadow-xl w-[12rem] border border-pink-400 border-x-2 border-y-2 ">
           <figure>
             <img src={Toro} alt="Album" />
           </figure>
           <div className="card-body ">
-            <h2 className="card-title">&nbsp;&nbsp;Name : Taro</h2>
+            <h2 className="card-title">&nbsp;&nbsp;Name : Toro</h2>
             <p>
-              &nbsp;&nbsp;Gender : Girls
+              &nbsp;&nbsp;Gender : Girl
               <br />
-              &nbsp;&nbsp;Age : 9 Year
+              &nbsp;&nbsp;Age : 8 Year
               <br />
-              &nbsp;&nbsp;Breed : Munchkin
+              &nbsp;&nbsp;Breed :<br />
+              Scottish Fold + Persian
               <br />
-              &nbsp;&nbsp;Like : Tuna
+              &nbsp;&nbsp;Like : Cat Snack
+            </p>
+          </div>
+        </div>
+
+        {/* ========== Card 25-D ========== */}
+        <div className="card lg:card-side bg-base-100 shadow-xl w-[12rem] border border-pink-400 border-x-2 border-y-2 ">
+          <figure>
+            <img src={Tako} alt="Album" />
+          </figure>
+          <div className="card-body ">
+            <h2 className="card-title">&nbsp;&nbsp;Name : Tako</h2>
+            <p>
+              &nbsp;&nbsp;Gender : Girl
+              <br />
+              &nbsp;&nbsp;Age : 8 Year
+              <br />
+              &nbsp;&nbsp;Breed : <br />
+              Scottish Fold + Persian
+              <br />
+              &nbsp;&nbsp;Like : Cat Snack
             </p>
           </div>
         </div>
       </div>
-
       <br />
 
-      {/* ========== Card 30 ========== */}
-      <div className="flex justify-around items-baseline px-8">
-        <div className="card lg:card-side bg-base-100 shadow-xl w-[12rem]">
+      {/* ========== Card 26-E ========== */}
+      <div className="flex justify-between items-baseline px-8">
+        <div className="card lg:card-side bg-base-100 shadow-xl w-[12rem] border border-pink-400 border-x-2 border-y-2 ">
           <figure>
-            <img src={Piza} alt="Album" />
+            <img src={OneDa} alt="Album" />
           </figure>
           <div className="card-body ">
-            <h2 className="card-title">&nbsp;&nbsp;Name : Piza</h2>
+            <h2 className="card-title">&nbsp;&nbsp;Name : OneDa</h2>
             <p>
-              &nbsp;&nbsp;Gender : Girls
+              &nbsp;&nbsp;Gender : Girl
               <br />
-              &nbsp;&nbsp;Age : 9 Year
+              &nbsp;&nbsp;Age : 6 Year
               <br />
-              &nbsp;&nbsp;Breed : Munchkin
+              &nbsp;&nbsp;Breed : Scottish
+              <br />
+              &nbsp;&nbsp;Like : Cat Snack
+            </p>
+          </div>
+        </div>
+
+        {/* ========== Card 27-E ========== */}
+        <div className="card lg:card-side bg-base-100 shadow-xl w-[12rem] border border-pink-400 border-x-2 border-y-2 ">
+          <figure>
+            <img src={Anya} alt="Album" />
+          </figure>
+          <div className="card-body ">
+            <h2 className="card-title">&nbsp;&nbsp;Name : Anya</h2>
+            <p>
+              &nbsp;&nbsp;Gender : Girl
+              <br />
+              &nbsp;&nbsp;Age : 1 Year
+              <br />
+              &nbsp;&nbsp;Breed : Scottish
               <br />
               &nbsp;&nbsp;Like : Tuna
             </p>
           </div>
         </div>
 
-        {/* ========== Card 31 ========== */}
+        {/* ========== Card 28-E ========== */}
         <div className="card lg:card-side bg-base-100 shadow-xl w-[12rem] border border-cyan-400 border-x-2 border-y-2 ">
           <figure>
-            <img src={aifel} alt="Album" />
+            <img src={Grayteal} alt="Album" />
           </figure>
           <div className="card-body ">
-            <h2 className="card-title">&nbsp;&nbsp;Name : Aifel</h2>
+            <h2 className="card-title">&nbsp;&nbsp;Name : Grayteal</h2>
             <p>
               &nbsp;&nbsp;Gender : Boy
               <br />
-              &nbsp;&nbsp;Age : 9 Year
+              &nbsp;&nbsp;Age : 7 Year
               <br />
-              &nbsp;&nbsp;Breed : Munchkin
+              &nbsp;&nbsp;Breed : American Curl
               <br />
-              &nbsp;&nbsp;Like : Tuna
+              &nbsp;&nbsp;Like : Cat Snack
             </p>
           </div>
         </div>
 
-        {/* ========== Card 32 ========== */}
-        <div className="card lg:card-side bg-base-100 shadow-xl w-[12rem]">
+        {/* ========== Card 29-E ========== */}
+        <div className="card lg:card-side bg-base-100 shadow-xl w-[12rem] border border-pink-400 border-x-2 border-y-2 ">
           <figure>
-            <img src={Piza} alt="Album" />
+            <img src={BingBong} alt="Album" />
           </figure>
           <div className="card-body ">
-            <h2 className="card-title">&nbsp;&nbsp;Name : Piza</h2>
+            <h2 className="card-title">&nbsp;&nbsp;Name : Bingbong</h2>
             <p>
-              &nbsp;&nbsp;Gender : Girls
+              &nbsp;&nbsp;Gender : Girl
               <br />
-              &nbsp;&nbsp;Age : 9 Year
+              &nbsp;&nbsp;Age : 1 Year
               <br />
               &nbsp;&nbsp;Breed : Munchkin
               <br />
-              &nbsp;&nbsp;Like : Tuna
+              &nbsp;&nbsp;Like : Cat Snack
+            </p>
+          </div>
+        </div>
+
+        {/* ========== Card 30-E ========== */}
+        <div className="card lg:card-side bg-base-100 shadow-xl w-[12rem] border border-cyan-400 border-x-2 border-y-2 ">
+          <figure>
+            <img src={Bobby} alt="Album" />
+          </figure>
+          <div className="card-body ">
+            <h2 className="card-title">&nbsp;&nbsp;Name : Bobby</h2>
+            <p>
+              &nbsp;&nbsp;Gender : Boy
+              <br />
+              &nbsp;&nbsp;Age : 1 Year
+              <br />
+              &nbsp;&nbsp;Breed : Munchkin
+              <br />
+              &nbsp;&nbsp;Like : Cat Snack
             </p>
           </div>
         </div>
       </div>
-
-      <br />
 
       {/* // ========== End ========== // */}
       <br />

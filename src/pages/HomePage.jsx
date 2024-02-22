@@ -1,12 +1,12 @@
 import React from "react";
-import { ToastContainer, Slide } from "react-toastify";
 import Menu from "../layouts/Menu";
 import Footer from "../layouts/Footer";
 import LogoCat from "../layouts/LogoCat";
 
-import Piza from "../assets/Cats/Piza.jpg"
-import Happy from "../assets/Cats/Happy.jpg";
+import shimp from "../assets/Cats/ไข่กุ้ง.jpg"
+import Img05 from "../assets/Foods/Img05.jpg"
 import Bobby from "../assets/Cats/bobby - boy.jpg";
+
 
 function HomePage() {
   return (
@@ -19,7 +19,7 @@ function HomePage() {
         <div className=" border-pink-300 border-x-4 border-y-4 rounded-xl">
           <img
             className=" rounded-none h-auto w-[10rem]"
-            src={Piza}
+            src={shimp}
             alt="image description"
           />
           <button
@@ -35,7 +35,7 @@ function HomePage() {
         <div className=" border-pink-300 border-x-4 border-y-4 rounded-xl">
           <img
             className=" rounded-none h-auto w-[10rem]"
-            src={Happy}
+            src={Img05}
             alt="image description"
           />
           <button
