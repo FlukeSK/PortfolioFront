@@ -11,7 +11,7 @@ export default function FriedFood() {
 
       {/* ========== FRIED FOOD 1 ========== */}
       <div className="flex justify-center items-center">
-        <img className="w-[20rem] m-8 rounded-lg" src={Img01} alt="image description" />
+        <img className=" w-[20rem] m-8 rounded-lg" src={Img01} alt="image description" />
         <p>
           Beacon Cheese Sping Roll.....................138 Baht <br />
           Mix Cheese...................................................138 Baht

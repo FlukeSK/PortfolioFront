@@ -1,6 +1,7 @@
 import React from "react";
 import Footer from "../layouts/Footer";
 import LogoCat from "../layouts/LogoCat";
+import { Link } from "react-router-dom";
 
 import shimp from "../assets/Cats/ไข่กุ้ง.jpg"
 import Img05 from "../assets/Foods/Img05.jpg"
@@ -21,12 +22,14 @@ function HomePage() {
             src={shimp}
             alt="image description"
           />
+          <Link to="/cat">
           <button
             className="flex justify-center items-center bg-pink-300 text-white font-bold w-full"
             typeof="button"
           >
             Cats
           </button>
+          </Link>
         </div>
         <br />
 
@@ -37,12 +40,15 @@ function HomePage() {
             src={Img05}
             alt="image description"
           />
+
+          <Link to="/food">
           <button
             className="flex justify-center items-center bg-pink-300 text-white font-bold w-full"
             typeof="button"
           >
             Food
           </button>
+          </Link>
         </div>
         <br />
 
@@ -53,12 +59,15 @@ function HomePage() {
             src={Bobby}
             alt="image description"
           />
+
+          <Link to="/queue">
           <button
-            className="flex justify-center items-center bg-pink-300 text-white font-bold w-full"
+            className=" flex justify-center items-center bg-pink-300 text-white font-bold w-full"
             typeof="button"
           >
             Queue
           </button>
+          </Link>
         </div>
       </div>
       <br />

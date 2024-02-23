@@ -12,6 +12,7 @@ import ProtectedRoute from "../features/auth/components/ProtectedRoute";
 import CheckUser from "../pages/CheckUser";
 import CheckQueue from "../pages/CheckQueue";
 import ChangPassword from "../pages/ChangePassword";
+import RunQue from "../pages/miniFoodPage/RunQue";
 
 const router = createBrowserRouter([
   {
@@ -61,6 +62,10 @@ const router = createBrowserRouter([
       {
         path: "changepassword",
         element: <ChangPassword />,
+      },
+      {
+        path: "runqueue",
+        element: <RunQue />,
       },
     ],
   },

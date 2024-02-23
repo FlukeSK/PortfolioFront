@@ -1,9 +1,13 @@
 import React from "react";
 import Footer from "../layouts/Footer";
 import LogoCat from "../layouts/LogoCat";
-import RunQue from "./miniFoodPage/RunQue";
+import { useContext } from "react";
+import { DateContext } from "../features/auth/contexts/DateContext";
+import { Link } from "react-router-dom";
 
 function QuePage() {
+const {date, setDate, hr, setHr} = useContext(DateContext)
+
   return (
     // ========== Start ========== //
     
@@ -50,7 +54,7 @@ function QuePage() {
         <div>
           <input
             type="date"
-            value="date"
+            value={date}
             onChange={(e) => {
               setDate(e.target.value);
             }}
@@ -59,7 +63,7 @@ function QuePage() {
             type="time"
             max={"20:00"}
             min={"11:00"}
-            value="hr"
+            value={hr}
             onChange={(e) => {
               setDate(e.target.value);
             }}
@@ -69,7 +73,9 @@ function QuePage() {
 
       <div className="flex justify-center p-2">
         <div className="flex justify-center bg-pink-400 border border-x-2 border-y-2 w-[7rem] text-white font-bold hover:bg-pink-500 p-1">
-          <button onClick={RunQue}>จองคิว</button>
+          <Link to="/runqueue">
+          <button>จองคิว</button>
+          </Link>
         </div>
       </div>
       {/* ========== End ========== */}

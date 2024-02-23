@@ -182,7 +182,7 @@ function CatsPage() {
               <br />
               &nbsp;&nbsp;Age : 10 Year
               <br />
-              &nbsp;&nbsp;Breed : American Shorthair
+              &nbsp;&nbsp;Breed : American
               <br />
               &nbsp;&nbsp;Like : Cat Snack
             </p>

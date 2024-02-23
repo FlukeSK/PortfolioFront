@@ -41,12 +41,8 @@ export default function Menu() {
                 {authUser ? (
                   // ===== Role ===== //
                   //   ===== ADMIN =====
-                  authUser.role == "ADMIN" ? (
+                  authUser.status == "admin" ? (
                     <>
-                      <li>
-                        <a onClick={logout} href="logout">Logout</a>
-                      </li>
-
                       <li>
                         <a href="/checkuser">Check User</a>
                       </li>
@@ -54,12 +50,20 @@ export default function Menu() {
                       <li>
                         <a href="/checkqueue">Check Queue</a>
                       </li>
+
+                      <li>
+                        <a href="/">Update Queue</a>
+                      </li>
+
+                      <li>
+                        <p onClick={logout}>Logout</p>
+                      </li>
                     </>
                   ) : (
                     // ===== User =====
                     <>
                       <li >
-                        <a onClick={logout} href="/">Logout</a>
+                        <a onClick={logout}>Logout</a>
                       </li>
 
                       <li>
@@ -71,7 +75,7 @@ export default function Menu() {
                   // ===== Guest ===== //
                   <>
                     <li>
-                      <a href="/login">Login</a>
+                      <a>Login</a>
                     </li>
                   </>
                 )}

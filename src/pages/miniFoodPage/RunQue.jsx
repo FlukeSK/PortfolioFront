@@ -2,12 +2,14 @@ import React from "react";
 import Footer from "../../layouts/Footer";
 import LogoCat from "../../layouts/LogoCat";
 
+import BotQueue from "../../components/BotQueue";
+
 export default function RunQue() {
   return (
     <div>
       <br />
       <div>
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center p-10">
           <a className="p-2 text-[1.5rem] font-bold">
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เลขบัตรคิว
             R1-CAT01 <br />
@@ -22,6 +24,7 @@ export default function RunQue() {
         </div>
       </div>
       <LogoCat />
+      <br />
       <br />
       <Footer />
     </div>

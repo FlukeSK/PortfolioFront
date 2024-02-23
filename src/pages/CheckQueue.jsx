@@ -2,21 +2,68 @@ import React from "react";
 import Footer from "../layouts/Footer";
 import LogoCat from "../layouts/LogoCat";
 
-export default function CheckQueue() {
-  return (
-    <div className="border border-pink-500">
-      <div tabIndex={0} className="collapse bg-pink-500">
-        <div className="collapse-title text-xl font-medium">
-          CheckQueue
-        </div>
+import { useContext } from "react";
+import { DateContext } from "../features/auth/contexts/DateContext";
 
-        <div className="collapse-content">
-          <p>tabIndex={0} attribute is necessary to make the div focusable</p>
+export default function CheckQueue() {
+  const {date, setDate, hr, setHr} = useContext(DateContext)
+
+  return (
+    <div>
+      <br />
+      <br />
+      <div className="flex justify-center">
+        <div>
+          <input
+            type="date"
+            value={date}
+            onChange={(e) => {
+              setDate(e.target.value);
+            }}
+          />
+          <input
+            type="time"
+            max={"20:00"}
+            min={"11:00"}
+            value={hr}
+            onChange={(e) => {
+              setDate(e.target.value);
+            }}
+          />
         </div>
       </div>
-      <LogoCat />
-      <br />
-      <Footer />
+
+      <div>
+        <div className="overflow-x-auto p-[5%] flex justify-center">
+          <table className="table border border-black">
+            {/* head */}
+            <thead className="bg-pink-400 border border-black text-white">
+              <tr>
+                <th></th>
+                <th>&nbsp;รอบ&nbsp;</th>
+                <th>&nbsp;เวลา&nbsp;</th>
+                <th>&nbsp;จำนวน&nbsp;</th>
+                <th>&nbsp;ราคา&nbsp;</th>
+              </tr>
+            </thead>
+            <tbody>
+              {/* row 1 */}
+              <tr className=" hover:bg-gray-200">
+                <th>&nbsp;R1&nbsp;</th>
+                <td>&nbsp;เช้า&nbsp;</td>
+                <td>&nbsp;12:00pm&nbsp;</td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1&nbsp;</td>
+                <th>&nbsp;200&nbsp;</th>
+              </tr>
+
+            </tbody>
+          </table>
+        </div>
+        <LogoCat />
+        <br />
+        <br />
+        <Footer />
+      </div>
     </div>
   );
 }

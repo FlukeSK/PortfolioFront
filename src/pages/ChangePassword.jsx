@@ -64,17 +64,6 @@ export default function ChangePassword({ onSuccess }) {
             />
           </div>
 
-          {/* ========== < Mobile > ========== */}
-          <div className="col-span-full w-[22rem]">
-            <Input
-              placeholder="Email address or mobile number"
-              value={input.mobile}
-              name="mobile"
-              onChange={handleChangeInput}
-              errorMessage={error.mobile}
-            />
-          </div>
-
           {/* ========== < Password > ========== */}
           <div className="col-span-full">
             <Input
