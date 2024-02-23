@@ -4,7 +4,6 @@ import Cafe02 from "../assets/MenuInfo/Cafe02.jpg";
 import MenuInfo from "../assets/MenuInfo/MenuInfo.png";
 import LogoCat from "../layouts/LogoCat";
 import Footer from "../layouts/Footer";
-import Menu from "../layouts/Menu";
 
 import QA1 from "../assets/Q-A/QA1.png";
 import QA2 from "../assets/Q-A/QA2.png";
@@ -24,7 +23,6 @@ import QA13 from "../assets/Q-A/QA13.png";
 export default function InfoPage() {
   return (
     <div>
-      <Menu />
       {/* ========== Img ========== */}
       <div className="flex justify-center items-center">
         <img

@@ -8,9 +8,10 @@ import LogoCat from "../../../layouts/LogoCat";
 
 
 const initial = {
+  email: "",
+  mobile: "",
   firstName: "",
   lastName: "",
-  emailOrMobile: "",
   password: "",
   confirmPassword: "",
 };
@@ -20,6 +21,7 @@ export default function RegisterForm({ onSuccess }) {
   const [input, setInput] = useState(initial);
   const [error, setError] = useState({});
 
+ 
   const { register } = useAuth();
 
   // =============== < Handle > =============== //
@@ -27,6 +29,9 @@ export default function RegisterForm({ onSuccess }) {
     try {
       e.preventDefault();
       const validateError = validateRegister(input);
+      console.log(
+        'validate error',validateError
+      )
       if (validateError) {
         return setError(validateError);
       }
@@ -36,7 +41,7 @@ export default function RegisterForm({ onSuccess }) {
       onSuccess();
     } catch (err) {
       if (err.response?.data.message === "EMAIL_MOBILE_IN_USE") {
-        return setError({ emailOrMobile: "already in use" });
+        return setError({ email: "already in use" });
       }
       toast.error(err.response?.data.message);
     }
@@ -79,30 +84,19 @@ export default function RegisterForm({ onSuccess }) {
             />
           </div>
 
-          {/* ========== < EmailOrMobile > ========== */}
+          {/* ========== < Email > ========== */}
           <div className="col-span-full">
             <Input
-              placeholder="Email address or mobile number"
-              value={input.emailOrMobile}
-              name="emailOrMobile"
-              onChange={handleChangeInput}
-              errorMessage={error.emailOrMobile}
-            />
-          </div>
-
-          {/* ========== < Email > ========== */}
-          {/* <div className="col-span-full">
-            <Input
-              placeholder="Email address"
+              placeholder="email address"
               value={input.email}
               name="email"
               onChange={handleChangeInput}
               errorMessage={error.email}
             />
-          </div> */}
+          </div>
 
           {/* ========== < mobile > ========== */}
-          {/* <div className="col-span-full">
+          <div className="col-span-full">
             <Input
               placeholder="mobile number"
               value={input.mobile}
@@ -110,7 +104,7 @@ export default function RegisterForm({ onSuccess }) {
               onChange={handleChangeInput}
               errorMessage={error.mobile}
             />
-          </div> */}
+          </div>
 
           {/* ========== < Password > ========== */}
           <div className="col-span-full">

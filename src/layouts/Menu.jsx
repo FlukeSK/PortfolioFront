@@ -1,11 +1,13 @@
 import React from "react";
 import "../index.css";
+import useAuth from "../hooks/use-auth";
 
 // =============== < Function > =============== //
 export default function Menu() {
+  const {authUser, logout} = useAuth()
   // =============== < Return > =============== //
   return (
-    <nav>
+    <div>
       <div>
         <div className="flex justify-between items-between">
           <ul
@@ -36,13 +38,13 @@ export default function Menu() {
           <div>
             <button>
               <ul className="flex justify-between items-start p-4 m-2 gap-4 text-white font-semibold">
-                {false ? (
+                {authUser ? (
                   // ===== Role ===== //
                   //   ===== ADMIN =====
-                  true ? (
+                  authUser.role == "ADMIN" ? (
                     <>
                       <li>
-                        <a href="/">Logout</a>
+                        <a onClick={logout} href="logout">Logout</a>
                       </li>
 
                       <li>
@@ -56,8 +58,8 @@ export default function Menu() {
                   ) : (
                     // ===== User =====
                     <>
-                      <li>
-                        <a href="/">Logout</a>
+                      <li >
+                        <a onClick={logout} href="/">Logout</a>
                       </li>
 
                       <li>
@@ -78,6 +80,6 @@ export default function Menu() {
           </div>
         </div>
       </div>
-    </nav>
+    </div>
   );
 }

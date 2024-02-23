@@ -2,15 +2,13 @@ import { useState } from "react";
 import { toast } from "react-toastify";
 import Button from "../components/Button";
 import Input from "../components/Input";
-import validateRegister from "../features/auth/validation/validation-register"
-import useAuth from "../hooks/use-auth";
-
-import Menu from "../layouts/Menu";
+import validateRegister from "../features/auth/validation/validation-register";
 import LogoCat from "../layouts/LogoCat";
 import Footer from "../layouts/Footer";
 
 const initial = {
-  emailOrMobile: "",
+  email: "",
+  mobile: "",
   password: "",
   confirmPassword: "",
 };
@@ -19,8 +17,6 @@ const initial = {
 export default function ChangePassword({ onSuccess }) {
   const [input, setInput] = useState(initial);
   const [error, setError] = useState({});
-
-  // const { register } = useAuth();
 
   // =============== < Handle > =============== //
   const handleFormSubmit = async (e) => {
@@ -36,7 +32,7 @@ export default function ChangePassword({ onSuccess }) {
       onSuccess();
     } catch (err) {
       if (err.response?.data.message === "EMAIL_MOBILE_IN_USE") {
-        return setError({ emailOrMobile: "already in use" });
+        return setError({ email: "already in use" });
       }
       toast.error(err.response?.data.message);
     }
@@ -49,23 +45,33 @@ export default function ChangePassword({ onSuccess }) {
   // =============== < Return > =============== //
   return (
     <div>
-      <Menu />
+      <br />
       <LogoCat />
-
       {/* =============== < Form > =============== */}
-      <div className=" flex justify-center items-center">
+      <div className=" flex justify-center items-center p-10">
         <form
           onSubmit={handleFormSubmit}
           className="grid grid-cols-2 p-4 gap-4"
         >
-          {/* ========== < EmailOrMobile > ========== */}
+          {/* ========== < Email > ========== */}
           <div className="col-span-full w-[22rem]">
             <Input
               placeholder="Email address or mobile number"
-              value={input.emailOrMobile}
-              name="emailOrMobile"
+              value={input.email}
+              name="email"
               onChange={handleChangeInput}
-              errorMessage={error.emailOrMobile}
+              errorMessage={error.email}
+            />
+          </div>
+
+          {/* ========== < Mobile > ========== */}
+          <div className="col-span-full w-[22rem]">
+            <Input
+              placeholder="Email address or mobile number"
+              value={input.mobile}
+              name="mobile"
+              onChange={handleChangeInput}
+              errorMessage={error.mobile}
             />
           </div>
 
@@ -102,6 +108,7 @@ export default function ChangePassword({ onSuccess }) {
         </form>
       </div>
       {/* =============== < END > =============== */}
+      <br />
       <Footer />
     </div>
   );

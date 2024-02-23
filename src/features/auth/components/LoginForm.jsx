@@ -12,7 +12,6 @@ export default function LoginForm() {
 
   const { login } = useAuth();
   if (login) {
-    console.log(login)
   } else {
   }
   
@@ -22,6 +21,7 @@ export default function LoginForm() {
     try {
       e.preventDefault();
       const validationError = validateLogin(input);
+      console.log(validationError)
       if (validationError) {
         return setError(validationError);
       }
@@ -44,7 +44,7 @@ export default function LoginForm() {
       <div className="grid gap-4">
         <div>
           <Input
-            placeholder="Email address or mobile number"
+            placeholder="email address"
             value={input.emailOrMobile}
             name="emailOrMobile"
             onChange={handleChangeInput}

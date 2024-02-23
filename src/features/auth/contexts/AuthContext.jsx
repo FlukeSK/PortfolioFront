@@ -1,9 +1,9 @@
-import { useState, useEffect, createContext } from 'react';
-import { toast } from 'react-toastify';
+import { useState, useEffect, createContext } from "react";
+import { toast } from "react-toastify";
 
-import * as authApi from '../../../api/auth';
-import * as userApi from '../../../api/user';
-import { clearToken, getToken, storeToken } from '../../../utils/local-storage';
+import * as authApi from "../../../api/auth";
+import * as userApi from "../../../api/user";
+import { clearToken, getToken, storeToken } from "../../../utils/local-storage";
 
 export const AuthContext = createContext();
 
@@ -17,10 +17,10 @@ export default function AuthContextProvider({ children }) {
     if (getToken()) {
       authApi
         .fetchMe()
-        .then(res => {
+        .then((res) => {
           setAuthUser(res.data.user);
         })
-        .catch(err => {
+        .catch((err) => {
           toast.error(err.response?.data.message);
         })
         .finally(() => setInitialLoading(false));
@@ -30,14 +30,15 @@ export default function AuthContextProvider({ children }) {
   }, []);
 
   // =============== < Register > =============== //
-  const register = async user => {
+  const register = async (user) => {
     const res = await authApi.register(user);
+    console.log(res)
     setAuthUser(res.data.newUser);
     storeToken(res.data.accessToken);
   };
 
   // =============== < Login > =============== //
-  const login = async credential => {
+  const login = async (credential) => {
     const res = await authApi.login(credential);
     setAuthUser(res.data.user);
     storeToken(res.data.accessToken);
@@ -50,9 +51,9 @@ export default function AuthContextProvider({ children }) {
   };
 
   // =============== < Update > =============== //
-  const updateUser = async user => {
+  const updateUser = async (user) => {
     const res = await userApi.updateUser(user);
-    setAuthUser(prev => ({ ...prev, ...res.data }));
+    setAuthUser((prev) => ({ ...prev, ...res.data }));
   };
 
   // =============== < Return > =============== //

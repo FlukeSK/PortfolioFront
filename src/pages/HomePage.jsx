@@ -1,5 +1,4 @@
 import React from "react";
-import Menu from "../layouts/Menu";
 import Footer from "../layouts/Footer";
 import LogoCat from "../layouts/LogoCat";
 
@@ -12,13 +11,13 @@ function HomePage() {
   return (
     // ========== Start ========== //
     <div>
-      <Menu />
+      <br />
       <LogoCat />
       {/* // ========== IMG ========== // */}
-      <div className="flex justify-center p-11 space-x-12">
+      <div className="flex justify-center p-16 space-x-12">
         <div className=" border-pink-300 border-x-4 border-y-4 rounded-xl">
           <img
-            className=" rounded-none h-auto w-[10rem]"
+            className=" rounded-t-md h-auto w-[10rem]"
             src={shimp}
             alt="image description"
           />
@@ -34,7 +33,7 @@ function HomePage() {
         {/* // ========== IMG 2 ========== // */}
         <div className=" border-pink-300 border-x-4 border-y-4 rounded-xl">
           <img
-            className=" rounded-none h-auto w-[10rem]"
+            className=" rounded-t-md h-auto w-[10rem]"
             src={Img05}
             alt="image description"
           />
@@ -50,7 +49,7 @@ function HomePage() {
         {/* // ========== IMG 3 ========== // */}
         <div className=" border-pink-300 border-x-4 border-y-4 rounded-xl">
           <img
-            className=" rounded-none h-auto w-[10rem]"
+            className=" rounded-t-md h-auto w-[10rem]"
             src={Bobby}
             alt="image description"
           />

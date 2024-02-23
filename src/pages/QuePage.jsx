@@ -1,13 +1,13 @@
 import React from "react";
-import Menu from "../layouts/Menu";
 import Footer from "../layouts/Footer";
 import LogoCat from "../layouts/LogoCat";
+import RunQue from "./miniFoodPage/RunQue";
 
 function QuePage() {
   return (
     // ========== Start ========== //
+    
     <div>
-      <Menu />
       {/* ========== Function ========== */}
       <h1 className=" p-4 flex justify-center items-center font-bold text-gray-500 text-[2rem]">
         ROUND
@@ -15,8 +15,10 @@ function QuePage() {
       <br />
       <div className="flex justify-center">
         <div className=" border border-pink-500 bg-pink-300 border-x-2 border-y-2 flex flex-col justify-center items-center p-8 w-[30rem]">
-          <select className=" select select-bordered w-full max-w-xs border border-pink-400 border-x-2 border-y-2 p-2 hover:border-pink-600">
-            <option disabled selected>
+          <select className="
+          select select-bordered w-full max-w-xs border border-pink-400 border-x-2 border-y-2 p-2 hover:border-pink-600"
+          >
+            <option disabled selected >
               Select Round
             </option>
             <option>Round - เช้า เวลา 12:00pm | EMPTY</option>
@@ -66,11 +68,8 @@ function QuePage() {
       </div>
 
       <div className="flex justify-center p-2">
-      <div className="flex justify-center bg-pink-400 border border-x-2 border-y-2 w-[7rem] text-white font-bold hover:bg-pink-500 p-1">
-          <button>Cancel</button>
-        </div>
         <div className="flex justify-center bg-pink-400 border border-x-2 border-y-2 w-[7rem] text-white font-bold hover:bg-pink-500 p-1">
-          <button>Next</button>
+          <button onClick={RunQue}>จองคิว</button>
         </div>
       </div>
       {/* ========== End ========== */}

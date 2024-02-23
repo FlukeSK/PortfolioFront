@@ -14,23 +14,20 @@ const registerSchema = Joi.object({
   }),
 
   // =============== < Email > =============== //
-  email: Joi.alternatives([
+  email: 
     Joi.string().email({ tlds: false })
-  ])
     .required()
     .messages({
       'alternatives.match': 'invalid email address'
     }),
 
   // =============== < Mobile > =============== //
-  mobile: Joi.alternatives([
+  mobile:
     Joi.string().pattern(/^[0-9]{10}$/)
-  ])
     .required()
     .messages({
       'alternatives.match': 'invalid mobile number'
     }),
-
 
     // =============== < Password > =============== //
   password: Joi.string()
