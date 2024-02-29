@@ -10,24 +10,24 @@ export default function HotDrink() {
 
         <div className="flex justify-center items-center">
         <img className="w-[20rem] m-8 rounded-lg" src={Img11} alt="image description" />
-          <p>
-            Hot Match Green Tea Latte..............128 Baht
+          <p className=" font-bold">
+            Hot Match Green Tea Latte..........128 Baht
             <br />
-            Hot Caramel Milk.................................128 Baht
+            Hot Caramel Milk..........................128 Baht
             <br />
-            Hot Chocolate.......................................128 Baht
+            Hot Chocolate................................128 Baht
             <br />
-            Caramel Latte Macchiato..................128 Baht
+            Caramel Latte Macchiato..............128 Baht
             <br />
-            Cafe' Latte...............................................128 Baht
+            Cafe' Latte.......................................128 Baht
             <br />
-            Cappuchino............................................128 Baht
+            Cappuchino.....................................128 Baht
             <br />
-            Americano...............................................128 Baht
+            Americano.......................................128 Baht
             <br />
-            Espresso...................................................128 Baht
+            Espresso...........................................128 Baht
             <br />
-            Mocha.......................................................128 Baht
+            Mocha..............................................128 Baht
           </p>
         </div>
       </div>

@@ -10,23 +10,23 @@ export default function Smoothie() {
       {/* ========== SMOOTHIE & FRAPPE 1 ========== */}
       <div className="flex justify-center items-center">
         <img className="w-[20rem] m-8 rounded-lg" src={Img07} alt="image description" />
-        <p>
-          Tropical Passion..............................................148
+        <p className=" font-bold">
+          Tropical Passion.........................................148
           Baht
           <br />
-          Dubble Berry....................................................148
+          Dubble Berry..............................................148
           Baht
           <br />
-          Coco-Twist........................................................148
+          Coco-Twist..................................................148
           Baht
           <br />
-          Thai Iced Tea Frappe.....................................148 Baht
+          Thai Iced Tea Frappe..................................148 Baht
           <br />
-          Caramel Milk Frappe.....................................148 Baht
+          Caramel Milk Frappe..................................148 Baht
           <br />
-          Cafe Latte Frappe...........................................148 Baht
+          Cafe Latte Frappe........................................148 Baht
           <br />
-          Chocolate Frappe...........................................148 Baht
+          Chocolate Frappe........................................148 Baht
         </p>
       </div>
     </div>

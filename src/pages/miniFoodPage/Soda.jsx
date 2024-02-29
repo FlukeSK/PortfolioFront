@@ -9,18 +9,18 @@ export default function Soda() {
       </h1>
 
       <div className="flex justify-center items-center">
-        <p>
-          Iced Lychee Soda.....................................138 Baht
+        <p className=" font-bold">
+          Iced Lychee Soda..................................138 Baht
           <br />
-          Iced Apple Soda.......................................138 Baht
+          Iced Apple Soda....................................138 Baht
           <br />
-          Iced Strawbery..........................................138 Baht
+          Iced Strawbery......................................138 Baht
           <br />
-          Iced Ume (Plum) Soda...........................138 Baht
+          Iced Ume (Plum) Soda.........................138 Baht
           <br />
           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 🐾 Served With JellBall 🐾
           <br />
-          Caturday Drinking Water.........................38 Baht
+          Caturday Drinking Water.......................38 Baht
         </p>
         <img className="w-[20rem] m-8 rounded-lg" src={Img08} alt="image description" />
       </div>

@@ -10,16 +10,16 @@ export default function Hottea() {
 
         <div className="flex justify-center items-center">
           <img className="w-[20rem] m-8 rounded-lg" src={Img09} alt="image description" />
-          <p>
-            Hottea - Peach............................................148 Baht
+          <p className=" font-bold">
+            Hottea - Peach................................148 Baht
             <br />
-            Hottea - Green............................................148 Baht
+            Hottea - Green................................148 Baht
             <br />
-            Hottea - Earl Grey......................................148 Baht
+            Hottea - Earl Grey...........................148 Baht
             <br />
-            Hottea - English Breakfast......................148 Baht
+            Hottea - English Breakfast.............148 Baht
             <br />
-            Hottea - Blueberry And Vanilla.............148 Baht
+            Hottea - Blueberry And Vanilla.....148 Baht
           </p>
         </div>
       </div>

@@ -11,14 +11,14 @@ export default function CatTreats() {
         <img className="w-[20rem] m-8 rounded-lg" src={Img12} alt="image description" />
         </div>
         <div className="flex justify-center items-center">
-          <p>
+          <p className=" font-bold">
             Tuna Feed............................40 Baht
             <br />
             Cat Snack.............................40 Baht
             <br />
-            Dried Chicken.....................50 Baht
+            Dried Chicken......................50 Baht
             <br />
-            Party Mix...............................80 Baht
+            Party Mix.............................80 Baht
           </p>
         </div>
       </div>

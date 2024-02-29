@@ -12,27 +12,27 @@ export default function FriedFood() {
       {/* ========== FRIED FOOD 1 ========== */}
       <div className="flex justify-center items-center">
         <img className=" w-[20rem] m-8 rounded-lg" src={Img01} alt="image description" />
-        <p>
+        <p className=" font-bold">
           Beacon Cheese Sping Roll.....................138 Baht <br />
-          Mix Cheese...................................................138 Baht
+          Mix Cheese..............................................138 Baht
           <br />
-          Cheese Ball...................................................118 Baht
+          Cheese Ball..............................................118 Baht
           <br />
-          Crispy Beacon With Cheese Lava.........118 Baht
+          Crispy Beacon With Cheese Lava..........118 Baht
         </p>
       </div>
 
       {/* ========== FRIED FOOD 2 ========== */}
       <div className="flex justify-center items-center">
-        <p>
+        <p className=" font-bold">
           Cheese
           Fries........................................................148 Baht
           <br />
-          Chicks n' Chips...................................................138
+          Chicks n' Chips....................................................138
           Baht <br />
           Caturday Fries.....................................................138
           Baht <br />
-          Japanese Fried Dumplings.............................118 Baht
+          Japanese Fried Dumplings.................................118 Baht
         </p>
         <img className="w-[20rem] m-8 rounded-lg" src={Img02} alt="image description" />
       </div>

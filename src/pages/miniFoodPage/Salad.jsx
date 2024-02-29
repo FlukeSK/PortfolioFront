@@ -10,15 +10,15 @@ export default function Salad() {
       {/* ========== SALAD 1 ========== */}
       <div className="flex justify-center items-center">
         <img className="w-[20rem] m-8 rounded-lg" src={Img05} alt="image description" />
-        <p>
-          Spicy Salmon...............................................188 Baht
+        <p className=" font-bold">
+          Spicy Salmon....................................188 Baht
           <br />
-          Seaweed Salad............................................138 Baht <br />
+          Seaweed Salad..................................138 Baht <br />
           Carb Stick & Ebiko
-          Salad.........................138 Baht
+          Salad.................138 Baht
           <br />
           Chicken Stick
-          Salad.......................................88 Baht
+          Salad............................88 Baht
           <br />
         </p>
       </div>
