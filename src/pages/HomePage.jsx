@@ -1,4 +1,3 @@
-import React from "react";
 import Footer from "../layouts/Footer";
 import LogoCat from "../layouts/LogoCat";
 import { Link } from "react-router-dom";
@@ -13,7 +12,7 @@ function HomePage() {
     <div
       className=""
       style={{
-       backgroundSize:"800px 800px",
+        backgroundSize: "800px 800px",
         backgroundImage:
           "url(https://img.freepik.com/free-vector/blurred-valentine-s-day-wallpaper_23-2148819570.jpg?w=996&t=st=1710775724~exp=1710776324~hmac=5d64db4d8645a2be4c6bfeedb15cc1b7fd02d444c9822719a2493273ada71e80)",
       }}
@@ -29,10 +28,7 @@ function HomePage() {
             alt="image description"
           />
           <Link to="/cat">
-            <button
-              className="flex justify-center items-center bg-pink-300 text-white font-bold w-full "
-              typeof="button"
-            >
+            <button className="flex justify-center items-center bg-pink-300 text-white font-bold w-full ">
               Cats
             </button>
           </Link>
@@ -48,10 +44,7 @@ function HomePage() {
           />
 
           <Link to="/food">
-            <button
-              className="flex justify-center items-center bg-pink-300 text-white font-bold w-full"
-              typeof="button"
-            >
+            <button className="flex justify-center items-center bg-pink-300 text-white font-bold w-full">
               Food
             </button>
           </Link>
@@ -67,10 +60,7 @@ function HomePage() {
           />
 
           <Link to="/queue">
-            <button
-              className=" flex justify-center items-center bg-pink-300 text-white font-bold w-full"
-              typeof="button"
-            >
+            <button className=" flex justify-center items-center bg-pink-300 text-white font-bold w-full">
               Queue
             </button>
           </Link>

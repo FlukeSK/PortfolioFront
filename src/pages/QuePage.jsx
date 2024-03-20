@@ -1,4 +1,3 @@
-import React from "react";
 import Footer from "../layouts/Footer";
 import LogoCat from "../layouts/LogoCat";
 import { useContext } from "react";
@@ -6,11 +5,11 @@ import { DateContext } from "../features/auth/contexts/DateContext";
 import { Link } from "react-router-dom";
 
 function QuePage() {
-const {date, setDate, hr, setHr} = useContext(DateContext)
+  const { date, setDate, hr, setHr } = useContext(DateContext);
 
   return (
     // ========== Start ========== //
-    
+
     <div>
       {/* ========== Function ========== */}
       <h1 className=" p-4 flex justify-center items-center font-bold text-gray-500 text-[2rem]">
@@ -19,10 +18,11 @@ const {date, setDate, hr, setHr} = useContext(DateContext)
       <br />
       <div className="flex justify-center">
         <div className=" border border-pink-500 bg-pink-300 border-x-2 border-y-2 flex flex-col justify-center items-center p-8 w-[30rem]">
-          <select className="
+          <select
+            className="
           select select-bordered w-full max-w-xs border border-pink-400 border-x-2 border-y-2 p-2 hover:border-pink-600"
           >
-            <option disabled selected >
+            <option disabled selected>
               Select Round
             </option>
             <option>Round - เช้า เวลา 12:00pm | EMPTY</option>
@@ -74,7 +74,7 @@ const {date, setDate, hr, setHr} = useContext(DateContext)
       <div className="flex justify-center p-2">
         <div className="flex justify-center bg-pink-400 border border-x-2 border-y-2 w-[7rem] text-white font-bold hover:bg-pink-500 p-1">
           <Link to="/runqueue">
-          <button>จองคิว</button>
+            <button>จองคิว</button>
           </Link>
         </div>
       </div>
