@@ -54,7 +54,7 @@ function CatsPage() {
 
       {/* ========== Card 01-A ========== */}
       <div className="flex justify-between items-baseline px-8">
-        <div className="card lg:card-side bg-base-100 shadow-xl w-[12rem] border border-x-2 border-y-2 border-cyan-400 transition hover:scale-110 hover:shadow-cyan-200">
+        <div className="card rounded-md lg:card-side bg-base-100 shadow-xl w-[12rem] border border-x-2 border-y-2 border-cyan-400 transition hover:scale-110 hover:shadow-cyan-200">
           <figure>
             <img src={Beacon} alt="Album" />
           </figure>
@@ -73,7 +73,7 @@ function CatsPage() {
         </div>
 
         {/* ========== Card 02-A ========== */}
-        <div className="card lg:card-side bg-base-100 shadow-xl w-[12rem] border border-cyan-400 border-x-2 border-y-2 transition hover:scale-110 hover:shadow-cyan-200">
+        <div className="card rounded-md lg:card-side bg-base-100 shadow-xl w-[12rem] border border-cyan-400 border-x-2 border-y-2 transition hover:scale-110 hover:shadow-cyan-200">
           <figure>
             <img src={Buby} alt="Album" />
           </figure>
@@ -92,7 +92,7 @@ function CatsPage() {
         </div>
 
         {/* ========== Card 03-A ========== */}
-        <div className="card lg:card-side bg-base-100 shadow-xl w-[12rem] border border-x-2 border-y-2 border-pink-400 transition hover:scale-110 hover:shadow-pink-200">
+        <div className="card rounded-md lg:card-side bg-base-100 shadow-xl w-[12rem] border border-x-2 border-y-2 border-pink-400 transition hover:scale-110 hover:shadow-pink-200">
           <figure>
             <img src={Japba} alt="Album" />
           </figure>
@@ -111,7 +111,7 @@ function CatsPage() {
         </div>
 
         {/* ========== Card 04-A ========== */}
-        <div className="card lg:card-side bg-base-100 shadow-xl w-[12rem] border border-cyan-400 border-x-2 border-y-2 transition hover:scale-110 hover:shadow-cyan-200">
+        <div className="card rounded-md lg:card-side bg-base-100 shadow-xl w-[12rem] border border-cyan-400 border-x-2 border-y-2 transition hover:scale-110 hover:shadow-cyan-200">
           <figure>
             <img src={aifel} alt="Album" />
           </figure>
@@ -130,7 +130,7 @@ function CatsPage() {
         </div>
 
         {/* ========== Card 05-A ========== */}
-        <div className="card lg:card-side bg-base-100 shadow-xl w-[12rem] border border-pink-400 border-x-2 border-y-2 transition hover:scale-110 hover:shadow-pink-200">
+        <div className="card rounded-md lg:card-side bg-base-100 shadow-xl w-[12rem] border border-pink-400 border-x-2 border-y-2 transition hover:scale-110 hover:shadow-pink-200">
           <figure>
             <img src={Piza} alt="Album" />
           </figure>
@@ -149,7 +149,7 @@ function CatsPage() {
         </div>
 
         {/* ========== Card 06-A ========== */}
-        <div className="card lg:card-side bg-base-100 shadow-xl w-[12rem] border border-cyan-400 border-x-2 border-y-2 transition hover:scale-110 hover:shadow-cyan-200">
+        <div className="card rounded-md lg:card-side bg-base-100 shadow-xl w-[12rem] border border-cyan-400 border-x-2 border-y-2 transition hover:scale-110 hover:shadow-cyan-200">
           <figure>
             <img src={Happy} alt="Album" />
           </figure>
@@ -171,7 +171,7 @@ function CatsPage() {
       <br />
       {/* ========== Card 07-B ========== */}
       <div className="flex justify-between items-baseline px-8">
-        <div className="card lg:card-side bg-base-100 shadow-xl w-[12rem] border border-cyan-400 border-x-2 border-y-2 transition hover:scale-110 hover:shadow-cyan-200">
+        <div className="card rounded-md lg:card-side bg-base-100 shadow-xl w-[12rem] border border-cyan-400 border-x-2 border-y-2 transition hover:scale-110 hover:shadow-cyan-200">
           <figure>
             <img src={Krai} alt="Album" />
           </figure>
@@ -189,7 +189,7 @@ function CatsPage() {
           </div>
         </div>
         {/* ========== Card 08-B ========== */}
-        <div className="card lg:card-side bg-base-100 shadow-xl w-[12rem] border border-pink-400 border-x-2 border-y-2 transition hover:scale-110 hover:shadow-pink-200">
+        <div className="card rounded-md lg:card-side bg-base-100 shadow-xl w-[12rem] border border-pink-400 border-x-2 border-y-2 transition hover:scale-110 hover:shadow-pink-200">
           <figure>
             <img src={Winter} alt="Album" />
           </figure>
@@ -208,7 +208,7 @@ function CatsPage() {
         </div>
 
         {/* ========== Card 09-B ========== */}
-        <div className="card lg:card-side bg-base-100 shadow-xl w-[12rem] border border-pink-400 border-x-2 border-y-2 transition hover:scale-110 hover:shadow-pink-200">
+        <div className="card rounded-md lg:card-side bg-base-100 shadow-xl w-[12rem] border border-pink-400 border-x-2 border-y-2 transition hover:scale-110 hover:shadow-pink-200">
           <figure>
             <img src={Misty} alt="Album" />
           </figure>
@@ -227,7 +227,7 @@ function CatsPage() {
         </div>
 
         {/* ========== Card 10-B ========== */}
-        <div className="card lg:card-side bg-base-100 shadow-xl w-[12rem] border border-cyan-400 border-x-2 border-y-2 transition hover:scale-110 hover:shadow-cyan-200">
+        <div className="card rounded-md lg:card-side bg-base-100 shadow-xl w-[12rem] border border-cyan-400 border-x-2 border-y-2 transition hover:scale-110 hover:shadow-cyan-200">
           <figure>
             <img src={Mika} alt="Album" />
           </figure>
@@ -246,7 +246,7 @@ function CatsPage() {
         </div>
 
         {/* ========== Card 11-B ========== */}
-        <div className="card lg:card-side bg-base-100 shadow-xl w-[12rem] border border-cyan-400 border-x-2 border-y-2 transition hover:scale-110 hover:shadow-cyan-200">
+        <div className="card rounded-md lg:card-side bg-base-100 shadow-xl w-[12rem] border border-cyan-400 border-x-2 border-y-2 transition hover:scale-110 hover:shadow-cyan-200">
           <figure>
             <img src={Harry} alt="Album" />
           </figure>
@@ -265,7 +265,7 @@ function CatsPage() {
         </div>
 
         {/* ========== Card 12-B ========== */}
-        <div className="card lg:card-side bg-base-100 shadow-xl w-[12rem] border border-cyan-400 border-x-2 border-y-2 transition hover:scale-110 hover:shadow-cyan-200">
+        <div className="card rounded-md lg:card-side bg-base-100 shadow-xl w-[12rem] border border-cyan-400 border-x-2 border-y-2 transition hover:scale-110 hover:shadow-cyan-200">
           <figure>
             <img src={Zaicrop} alt="Album" />
           </figure>
@@ -287,7 +287,7 @@ function CatsPage() {
       <br />
       {/* ========== Card 13-C ========== */}
       <div className="flex justify-between items-baseline px-8">
-        <div className="card lg:card-side bg-base-100 shadow-xl w-[12rem] border border-pink-400 border-x-2 border-y-2 transition hover:scale-110 hover:shadow-pink-200">
+        <div className="card rounded-md lg:card-side bg-base-100 shadow-xl w-[12rem] border border-pink-400 border-x-2 border-y-2 transition hover:scale-110 hover:shadow-pink-200">
           <figure>
             <img src={MiwMiw} alt="Album" />
           </figure>
@@ -306,7 +306,7 @@ function CatsPage() {
         </div>
 
         {/* ========== Card 14-C ========== */}
-        <div className="card lg:card-side bg-base-100 shadow-xl w-[12rem] border border-cyan-400 border-x-2 border-y-2 transition hover:scale-110 hover:shadow-cyan-200">
+        <div className="card rounded-md lg:card-side bg-base-100 shadow-xl w-[12rem] border border-cyan-400 border-x-2 border-y-2 transition hover:scale-110 hover:shadow-cyan-200">
           <figure>
             <img src={Frodo} alt="Album" />
           </figure>
@@ -325,7 +325,7 @@ function CatsPage() {
         </div>
 
         {/* ========== Card 15-C ========== */}
-        <div className="card lg:card-side bg-base-100 shadow-xl w-[12rem] border border-cyan-400 border-x-2 border-y-2 transition hover:scale-110 hover:shadow-cyan-200">
+        <div className="card rounded-md lg:card-side bg-base-100 shadow-xl w-[12rem] border border-cyan-400 border-x-2 border-y-2 transition hover:scale-110 hover:shadow-cyan-200">
           <figure>
             <img src={Yeti} alt="Album" />
           </figure>
@@ -344,7 +344,7 @@ function CatsPage() {
         </div>
 
         {/* ========== Card 16-C ========== */}
-        <div className="card lg:card-side bg-base-100 shadow-xl w-[12rem] border border-cyan-400 border-x-2 border-y-2 transition hover:scale-110 hover:shadow-cyan-200">
+        <div className="card rounded-md lg:card-side bg-base-100 shadow-xl w-[12rem] border border-cyan-400 border-x-2 border-y-2 transition hover:scale-110 hover:shadow-cyan-200">
           <figure>
             <img src={Zimba} alt="Album" />
           </figure>
@@ -363,7 +363,7 @@ function CatsPage() {
         </div>
 
         {/* ========== Card 17-C ========== */}
-        <div className="card lg:card-side bg-base-100 shadow-xl w-[12rem] border border-cyan-400 border-x-2 border-y-2 transition hover:scale-110 hover:shadow-cyan-200">
+        <div className="card rounded-md lg:card-side bg-base-100 shadow-xl w-[12rem] border border-cyan-400 border-x-2 border-y-2 transition hover:scale-110 hover:shadow-cyan-200">
           <figure>
             <img src={Bozo} alt="Album" />
           </figure>
@@ -382,7 +382,7 @@ function CatsPage() {
         </div>
 
         {/* ========== Card 18-C ========== */}
-        <div className="card lg:card-side bg-base-100 shadow-xl w-[12rem] border border-cyan-400 border-x-2 border-y-2 transition hover:scale-110 hover:shadow-cyan-200">
+        <div className="card rounded-md lg:card-side bg-base-100 shadow-xl w-[12rem] border border-cyan-400 border-x-2 border-y-2 transition hover:scale-110 hover:shadow-cyan-200">
           <figure>
             <img src={Lika} alt="Album" />
           </figure>
@@ -404,7 +404,7 @@ function CatsPage() {
 
       {/* ========== Card 19-D ========== */}
       <div className="flex justify-between items-baseline px-8">
-        <div className="card lg:card-side bg-base-100 shadow-xl w-[12rem] border border-pink-400 border-x-2 border-y-2 transition hover:scale-110 hover:shadow-pink-200">
+        <div className="card rounded-md lg:card-side bg-base-100 shadow-xl w-[12rem] border border-pink-400 border-x-2 border-y-2 transition hover:scale-110 hover:shadow-pink-200">
           <figure>
             <img src={Fyby} alt="Album" />
           </figure>
@@ -423,7 +423,7 @@ function CatsPage() {
         </div>
 
         {/* ========== Card 20-D ========== */}
-        <div className="card lg:card-side bg-base-100 shadow-xl w-[12rem] border border-cyan-400 border-x-2 border-y-2 transition hover:scale-110 hover:shadow-cyan-200">
+        <div className="card rounded-md lg:card-side bg-base-100 shadow-xl w-[12rem] border border-cyan-400 border-x-2 border-y-2 transition hover:scale-110 hover:shadow-cyan-200">
           <figure>
             <img src={Eongtrong} alt="Album" />
           </figure>
@@ -442,7 +442,7 @@ function CatsPage() {
         </div>
 
         {/* ========== Card 21-D ========== */}
-        <div className="card lg:card-side bg-base-100 shadow-xl w-[12rem] border border-cyan-400 border-x-2 border-y-2 transition hover:scale-110 hover:shadow-cyan-200">
+        <div className="card rounded-md lg:card-side bg-base-100 shadow-xl w-[12rem] border border-cyan-400 border-x-2 border-y-2 transition hover:scale-110 hover:shadow-cyan-200">
           <figure>
             <img src={Shimp} alt="Album" />
           </figure>
@@ -461,7 +461,7 @@ function CatsPage() {
         </div>
 
         {/* ========== Card 23-D ========== */}
-        <div className="card lg:card-side bg-base-100 shadow-xl w-[12rem] border border-cyan-400 border-x-2 border-y-2 transition hover:scale-110 hover:shadow-cyan-200">
+        <div className="card rounded-md lg:card-side bg-base-100 shadow-xl w-[12rem] border border-cyan-400 border-x-2 border-y-2 transition hover:scale-110 hover:shadow-cyan-200">
           <figure>
             <img src={Udong} alt="Album" />
           </figure>
@@ -480,7 +480,7 @@ function CatsPage() {
         </div>
 
         {/* ========== Card 24-D ========== */}
-        <div className="card lg:card-side bg-base-100 shadow-xl w-[12rem] border border-pink-400 border-x-2 border-y-2 transition hover:scale-110 hover:shadow-pink-200">
+        <div className="card rounded-md lg:card-side bg-base-100 shadow-xl w-[12rem] border border-pink-400 border-x-2 border-y-2 transition hover:scale-110 hover:shadow-pink-200">
           <figure>
             <img src={Toro} alt="Album" />
           </figure>
@@ -499,7 +499,7 @@ function CatsPage() {
         </div>
 
         {/* ========== Card 25-D ========== */}
-        <div className="card lg:card-side bg-base-100 shadow-xl w-[12rem] border border-pink-400 border-x-2 border-y-2 transition hover:scale-110 hover:shadow-pink-200">
+        <div className="card rounded-md lg:card-side bg-base-100 shadow-xl w-[12rem] border border-pink-400 border-x-2 border-y-2 transition hover:scale-110 hover:shadow-pink-200">
           <figure>
             <img src={Tako} alt="Album" />
           </figure>
@@ -521,7 +521,7 @@ function CatsPage() {
 
       {/* ========== Card 26-E ========== */}
       <div className="flex justify-between items-baseline px-8">
-        <div className="card lg:card-side bg-base-100 shadow-xl w-[12rem] border border-pink-400 border-x-2 border-y-2 transition hover:scale-110 hover:shadow-pink-200">
+        <div className="card rounded-md lg:card-side bg-base-100 shadow-xl w-[12rem] border border-pink-400 border-x-2 border-y-2 transition hover:scale-110 hover:shadow-pink-200">
           <figure>
             <img src={OneDa} alt="Album" />
           </figure>
@@ -540,7 +540,7 @@ function CatsPage() {
         </div>
 
         {/* ========== Card 27-E ========== */}
-        <div className="card lg:card-side bg-base-100 shadow-xl w-[12rem] border border-pink-400 border-x-2 border-y-2 transition hover:scale-110 hover:shadow-pink-200">
+        <div className="card rounded-md lg:card-side bg-base-100 shadow-xl w-[12rem] border border-pink-400 border-x-2 border-y-2 transition hover:scale-110 hover:shadow-pink-200">
           <figure>
             <img src={Anya} alt="Album" />
           </figure>
@@ -559,7 +559,7 @@ function CatsPage() {
         </div>
 
         {/* ========== Card 28-E ========== */}
-        <div className="card lg:card-side bg-base-100 shadow-xl w-[12rem] border border-cyan-400 border-x-2 border-y-2 transition hover:scale-110 hover:shadow-cyan-200">
+        <div className="card rounded-md lg:card-side bg-base-100 shadow-xl w-[12rem] border border-cyan-400 border-x-2 border-y-2 transition hover:scale-110 hover:shadow-cyan-200">
           <figure>
             <img src={Grayteal} alt="Album" />
           </figure>
@@ -578,7 +578,7 @@ function CatsPage() {
         </div>
 
         {/* ========== Card 29-E ========== */}
-        <div className="card lg:card-side bg-base-100 shadow-xl w-[12rem] border border-pink-400 border-x-2 border-y-2 transition hover:scale-110 hover:shadow-pink-200">
+        <div className="card rounded-md lg:card-side bg-base-100 shadow-xl w-[12rem] border border-pink-400 border-x-2 border-y-2 transition hover:scale-110 hover:shadow-pink-200">
           <figure>
             <img src={BingBong} alt="Album" />
           </figure>
@@ -597,7 +597,7 @@ function CatsPage() {
         </div>
 
         {/* ========== Card 30-E ========== */}
-        <div className="card lg:card-side bg-base-100 shadow-xl w-[12rem] border border-cyan-400 border-x-2 border-y-2 transition hover:scale-110 hover:shadow-cyan-200">
+        <div className="card rounded-md lg:card-side bg-base-100 shadow-xl w-[12rem] border border-cyan-400 border-x-2 border-y-2 transition hover:scale-110 hover:shadow-cyan-200">
           <figure>
             <img src={Bobby} alt="Album" />
           </figure>

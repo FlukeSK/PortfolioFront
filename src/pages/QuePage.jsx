@@ -65,7 +65,7 @@ const {date, setDate, hr, setHr} = useContext(DateContext)
             min={"11:00"}
             value={hr}
             onChange={(e) => {
-              setDate(e.target.value);
+              setHr(e.target.value);
             }}
           />
         </div>

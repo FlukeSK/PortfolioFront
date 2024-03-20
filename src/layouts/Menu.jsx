@@ -15,23 +15,23 @@ export default function Menu() {
             className="flex justify-between items-start p-4 m-2 gap-4 text-white font-semibold"
           >
             <li>
-              <a href="/">Home</a>
+              <a className=" hover:text-pink-700 duration-300" href="/">Home</a>
             </li>
 
             <li>
-              <a href="/cat">Cat</a>
+              <a className=" hover:text-pink-700 duration-300" href="/cat">Cat</a>
             </li>
 
             <li>
-              <a href="/food">Food</a>
+              <a className=" hover:text-pink-700 duration-300" href="/food">Food</a>
             </li>
 
             <li>
-              <a href="/queue">Queue</a>
+              <a className=" hover:text-pink-700 duration-300" href="/queue">Queue</a>
             </li>
 
             <li>
-              <a href="/info">Info</a>
+              <a className=" hover:text-pink-700 duration-300" href="/info">Info</a>
             </li>
           </ul>
 
@@ -44,30 +44,30 @@ export default function Menu() {
                   authUser.status == "admin" ? (
                     <>
                       <li>
-                        <a href="/checkuser">Check User</a>
+                        <a className=" hover:text-pink-700 duration-300" href="/checkuser">Check User</a>
                       </li>
 
                       <li>
-                        <a href="/checkqueue">Check Queue</a>
+                        <a className=" hover:text-pink-700 duration-300" href="/checkqueue">Check Queue</a>
                       </li>
 
                       <li>
-                        <a href="/">Update Queue</a>
+                        <a className=" hover:text-pink-700 duration-300" href="/">Update Queue</a>
                       </li>
 
                       <li>
-                        <p onClick={logout}>Logout</p>
+                        <p className=" hover:text-pink-700 duration-300" onClick={logout}>Logout</p>
                       </li>
                     </>
                   ) : (
                     // ===== User =====
                     <>
                       <li >
-                        <a onClick={logout}>Logout</a>
+                        <a className=" hover:text-pink-700 duration-300" onClick={logout}>Logout</a>
                       </li>
 
                       <li>
-                        <a href="/changepassword">Change Password</a>
+                        <a className=" hover:text-pink-700 duration-300" href="/changepassword">Change Password</a>
                       </li>
                     </>
                   )
@@ -75,7 +75,7 @@ export default function Menu() {
                   // ===== Guest ===== //
                   <>
                     <li>
-                      <a>Login</a>
+                      <a className=" hover:text-pink-700 duration-300">Login</a>
                     </li>
                   </>
                 )}
