@@ -1,4 +1,4 @@
-import React from "react";
+
 import Footer from "../layouts/Footer";
 import LogoCat from "../layouts/LogoCat";
 
@@ -16,7 +16,6 @@ export default function CheckUser() {
             <th>&nbsp;LastName&nbsp;</th>
             <th>&nbsp;Email&nbsp;</th>
             <th>&nbsp;Mobile&nbsp;</th>
-            <th>&nbsp;Password&nbsp;</th>
           </tr>
         </thead>
         <tbody>
@@ -27,7 +26,6 @@ export default function CheckUser() {
             <td>shimp</td>
             <td>admin@gmail.com</td>
             <th>&nbsp;1234567897&nbsp;</th>
-            <th>&nbsp;123456&nbsp;</th>
           </tr>
           {/* row 2 */}
           <tr className=" hover:bg-gray-200">
@@ -36,7 +34,6 @@ export default function CheckUser() {
             <td>papoy</td>
             <td>usern@gmail.com</td>
             <th>0995199000</th>
-            <th>123456</th>
           </tr>
           {/* row 3 */}
           <tr className=" hover:bg-gray-200">
@@ -45,7 +42,6 @@ export default function CheckUser() {
             <td>cafe</td>
             <td>caturday@gmail.com</td>
             <th>0995199000</th>
-            <th>123456</th>
           </tr>
           {/* row 4 */}
           <tr className=" hover:bg-gray-200">
@@ -54,7 +50,6 @@ export default function CheckUser() {
             <td>cat</td>
             <td>testcc@gmail.com</td>
             <th>0123456788</th>
-            <th>123456</th>
           </tr>
           {/* row 5 */}
           <tr className=" hover:bg-gray-200">
@@ -63,7 +58,6 @@ export default function CheckUser() {
             <td>cat</td>
             <td>jjj@gmail.com</td>
             <th>0123456787</th>
-            <th>123456</th>
           </tr>
           {/* row 6 */}
           <tr className=" hover:bg-gray-200">
@@ -72,7 +66,6 @@ export default function CheckUser() {
             <td>mi</td>
             <td>jim@gmail.com</td>
             <th>0123456786</th>
-            <th>123456</th>
           </tr>
           {/* row 7 */}
           <tr className=" hover:bg-gray-200">
@@ -81,7 +74,6 @@ export default function CheckUser() {
             <td>miz</td>
             <td>jivm@gmail.com</td>
             <th>0995199222</th>
-            <th>123456</th>
           </tr>
         </tbody>
       </table>

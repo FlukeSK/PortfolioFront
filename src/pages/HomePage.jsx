@@ -12,7 +12,7 @@ function HomePage() {
     <div
       className=""
       style={{
-        backgroundSize: "800px 800px",
+        backgroundSize: "2000px 2000px",
         backgroundImage:
           "url(https://img.freepik.com/free-vector/blurred-valentine-s-day-wallpaper_23-2148819570.jpg?w=996&t=st=1710775724~exp=1710776324~hmac=5d64db4d8645a2be4c6bfeedb15cc1b7fd02d444c9822719a2493273ada71e80)",
       }}
@@ -21,14 +21,15 @@ function HomePage() {
       <LogoCat />
       {/* // ========== IMG ========== // */}
       <div className="flex justify-center p-16 space-x-12 ">
-        <div className=" border-pink-300 border-x-4 border-y-4 rounded-xl hover:scale-110">
+        <div className=" border-pink-400 border-4 rounded-xl hover:scale-110 duration-200">
+        <Link to="/cat">
           <img
             className=" rounded-t-md h-auto w-[10rem]"
             src={shimp}
             alt="image description"
           />
-          <Link to="/cat">
-            <button className="flex justify-center items-center bg-pink-300 text-white font-bold w-full ">
+
+            <button className="flex justify-center items-center bg-pink-400 text-white font-bold w-full ">
               Cats
             </button>
           </Link>
@@ -36,15 +37,16 @@ function HomePage() {
         <br />
 
         {/* // ========== IMG 2 ========== // */}
-        <div className=" border-pink-300 border-x-4 border-y-4 rounded-xl hover:scale-110">
+        <div className=" border-pink-400 border-4 rounded-xl hover:scale-110 duration-200">
+        <Link to="/food">
           <img
             className=" rounded-t-md h-auto w-[10rem]"
             src={Img05}
             alt="image description"
           />
 
-          <Link to="/food">
-            <button className="flex justify-center items-center bg-pink-300 text-white font-bold w-full">
+
+            <button className="flex justify-center items-center bg-pink-400 text-white font-bold w-full">
               Food
             </button>
           </Link>
@@ -52,15 +54,16 @@ function HomePage() {
         <br />
 
         {/* // ========== IMG 3 ========== // */}
-        <div className=" border-pink-300 border-x-4 border-y-4 rounded-xl hover:scale-110">
+        <div className=" border-pink-400 border-4 rounded-xl hover:scale-110 duration-200">
+        <Link to="/queue">
           <img
             className=" rounded-t-md h-auto w-[10rem]"
             src={Bobby}
             alt="image description"
           />
 
-          <Link to="/queue">
-            <button className=" flex justify-center items-center bg-pink-300 text-white font-bold w-full">
+
+            <button className=" flex justify-center items-center bg-pink-400 text-white font-bold w-full">
               Queue
             </button>
           </Link>

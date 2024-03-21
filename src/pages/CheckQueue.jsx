@@ -1,4 +1,3 @@
-import React from "react";
 import Footer from "../layouts/Footer";
 import LogoCat from "../layouts/LogoCat";
 
@@ -6,7 +5,7 @@ import { useContext } from "react";
 import { DateContext } from "../features/auth/contexts/DateContext";
 
 export default function CheckQueue() {
-  const {date, setDate, hr, setHr} = useContext(DateContext)
+  const { date, setDate } = useContext(DateContext);
 
   return (
     <div>
@@ -15,17 +14,9 @@ export default function CheckQueue() {
       <div className="flex justify-center">
         <div>
           <input
+          className=" border-2 border-pink-400 hover:border-pink-600 px-2"
             type="date"
             value={date}
-            onChange={(e) => {
-              setDate(e.target.value);
-            }}
-          />
-          <input
-            type="time"
-            max={"20:00"}
-            min={"11:00"}
-            value={hr}
             onChange={(e) => {
               setDate(e.target.value);
             }}
@@ -55,7 +46,6 @@ export default function CheckQueue() {
                 <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1&nbsp;</td>
                 <th>&nbsp;200&nbsp;</th>
               </tr>
-
             </tbody>
           </table>
         </div>

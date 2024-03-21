@@ -1,16 +1,16 @@
-import React from "react";
+
 import Img03 from "../../assets/Foods/Img03.jpg";
 import Img04 from "../../assets/Foods/Img04.jpg";
 
 export default function MainDish() {
   return (
     <div>
-      <h1 className="flex justify-center items-center font-bold text-gray-400 text-[2rem]">
+      <h1 className="hover:scale-105 flex justify-center items-center font-bold text-gray-500 text-[2rem]">
         MAIN DISH
       </h1>
       {/* ========== MAIN DISH 1 ========== */}
       <div className="flex justify-center items-center">
-        <img className="w-[20rem] m-8 rounded-lg" src={Img03} alt="image description" />
+        <img className="duration-200 hover:scale-105 w-[20rem] m-8 rounded-lg" src={Img03} alt="image description" />
         <p className=" font-bold">
           Mix
           Sausages...............................................228
@@ -42,7 +42,7 @@ export default function MainDish() {
           Baked Spinach With
           Cheese...............138 Baht
         </p>
-        <img className="w-[20rem] m-8 rounded-lg" src={Img04} alt="image description" />
+        <img className="duration-200 hover:scale-105 w-[20rem] m-8 rounded-lg" src={Img04} alt="image description" />
       </div>
     </div>
   );

@@ -5,19 +5,38 @@ import { DateContext } from "../features/auth/contexts/DateContext";
 import { Link } from "react-router-dom";
 
 function QuePage() {
-  const { date, setDate, hr, setHr } = useContext(DateContext);
+  const { date, setDate } = useContext(DateContext);
 
   return (
     // ========== Start ========== //
 
-    <div>
+    <div
+      className=""
+      style={{
+        backgroundSize: "2000px 2000px",
+        backgroundImage:
+          "url(https://img.freepik.com/free-vector/blurred-valentine-s-day-wallpaper_23-2148819570.jpg?w=996&t=st=1710775724~exp=1710776324~hmac=5d64db4d8645a2be4c6bfeedb15cc1b7fd02d444c9822719a2493273ada71e80)",
+      }}
+    >
       {/* ========== Function ========== */}
-      <h1 className=" p-4 flex justify-center items-center font-bold text-gray-500 text-[2rem]">
+      <h1 className=" hover:scale-105 p-4 flex justify-center items-center font-bold text-gray-500 text-[2rem]">
         ROUND
       </h1>
-      <br />
       <div className="flex justify-center">
-        <div className=" border border-pink-500 bg-pink-300 border-x-2 border-y-2 flex flex-col justify-center items-center p-8 w-[30rem]">
+        <div>
+          <input
+          className=" border-2 border-pink-400 hover:border-pink-600 px-2"
+            type="date"
+            value={date}
+            onChange={(e) => {
+              setDate(e.target.value);
+            }}
+          />
+        </div>
+      </div>
+
+      <div className="flex justify-center">
+        <div className="flex flex-col justify-center items-center p-6 w-[30rem]">
           <select
             className="
           select select-bordered w-full max-w-xs border border-pink-400 border-x-2 border-y-2 p-2 hover:border-pink-600"
@@ -37,7 +56,7 @@ function QuePage() {
           className=" border border-pink-500 bg-pink-300 hover:border-pink-600 border-x-2 border-y-2 flex justify-center items-center w-[5
           rem]"
         >
-          <select className=" text-gray-600 border-pink-400 ">
+          <select className=" text-gray-600 border-pink-400 hover:border-pink-600 ">
             <option disabled selected>
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เลือกจำนวนคน
             </option>
@@ -50,29 +69,8 @@ function QuePage() {
         </div>
       </div>
 
-      <div className="flex justify-center">
-        <div>
-          <input
-            type="date"
-            value={date}
-            onChange={(e) => {
-              setDate(e.target.value);
-            }}
-          />
-          <input
-            type="time"
-            max={"20:00"}
-            min={"11:00"}
-            value={hr}
-            onChange={(e) => {
-              setHr(e.target.value);
-            }}
-          />
-        </div>
-      </div>
-
       <div className="flex justify-center p-2">
-        <div className="flex justify-center bg-pink-400 border border-x-2 border-y-2 w-[7rem] text-white font-bold hover:bg-pink-500 p-1">
+        <div className="flex justify-center bg-pink-400 border-2 border-pink-400 hover:border-white w-[7rem] text-white font-bold hover:bg-pink-500 p-1">
           <Link to="/runqueue">
             <button>จองคิว</button>
           </Link>

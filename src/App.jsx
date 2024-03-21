@@ -1,4 +1,4 @@
-import React from "react";
+
 import Spinner from "./components/Spinner";
 import useAuth from "./hooks/use-auth";
 import { ToastContainer, Slide } from 'react-toastify';
