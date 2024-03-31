@@ -27,6 +27,10 @@ export default function Menu() {
             </li>
 
             <li>
+              <a className=" hover:text-pink-700 duration-300" href="/gift">Gift</a>
+            </li>
+
+            <li>
               <a className=" hover:text-pink-700 duration-300" href="/queue">Queue</a>
             </li>
 

@@ -25,7 +25,7 @@ function QuePage() {
       <div className="flex justify-center">
         <div>
           <input
-          className=" border-2 border-pink-400 hover:border-pink-600 px-2"
+          className=" rounded-md border-2 border-pink-400 hover:border-pink-600 px-2"
             type="date"
             value={date}
             onChange={(e) => {
@@ -39,7 +39,7 @@ function QuePage() {
         <div className="flex flex-col justify-center items-center p-6 w-[30rem]">
           <select
             className="
-          select select-bordered w-full max-w-xs border border-pink-400 border-x-2 border-y-2 p-2 hover:border-pink-600"
+           rounded-md select select-bordered w-full max-w-xs border border-pink-400 border-x-2 border-y-2 p-2 hover:border-pink-600"
           >
             <option disabled selected>
               Select Round
@@ -53,10 +53,10 @@ function QuePage() {
       </div>
       <div className="flex justify-center p-2">
         <div
-          className=" border border-pink-500 bg-pink-300 hover:border-pink-600 border-x-2 border-y-2 flex justify-center items-center w-[5
+          className=" rounded-md border border-pink-500 bg-pink-300 hover:border-pink-600 border-x-2 border-y-2 flex justify-center items-center w-[5
           rem]"
         >
-          <select className=" text-gray-600 border-pink-400 hover:border-pink-600 ">
+          <select className=" rounded-md text-gray-600 border-pink-400 hover:border-pink-600 ">
             <option disabled selected>
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เลือกจำนวนคน
             </option>

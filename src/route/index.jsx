@@ -8,6 +8,7 @@ import InfoPage from "../pages/InfoPage";
 import Container from "../layouts/Container";
 import RedirectIfAuthenticated from "../features/auth/components/RedirectIfAuthenticated";
 import ProtectedRoute from "../features/auth/components/ProtectedRoute";
+import Gift from "../pages/Gift";
 
 import CheckUser from "../pages/CheckUser";
 import CheckQueue from "../pages/CheckQueue";
@@ -42,6 +43,10 @@ const router = createBrowserRouter([
       {
         path: "food",
         element: <FoodPage />,
+      },
+      {
+        path: "gift",
+        element: <Gift />,
       },
       {
         path: "info",
