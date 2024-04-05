@@ -7,7 +7,31 @@ import LogoCat from "../../layouts/LogoCat";
 // import BotQueue from "../../components/BotQueue";
 
 export default function RunQue() {
+    const [cards, setCards] = useState([]);
+  
+    const addCard = () => {
+      const nextNumber = cards.length + 1;
+      setCards([...cards, { id: nextNumber, content: `Card ${nextNumber}` }]);
+    };
+  
+    const deleteCard = (id) => {
+      setCards(cards.filter(card => card.id !== id));
+    };
+  
+    const renderCards = () => {
+      const cardElements = [];
+      for (let i = 0; i < cards.length; i++) {
+        const card = cards[i];
+        cardElements.push(
+          <div key={card.id}>
+            <p>{card.content}</p>
+            <button onClick={() => deleteCard(card.id)}>ลบ</button>
+          </div>
+        );
+      }
+    };
   return (
+    
     <div
       className=""
       style={{
@@ -38,4 +62,4 @@ export default function RunQue() {
       <Footer />
     </div>
   );
-}
+};
