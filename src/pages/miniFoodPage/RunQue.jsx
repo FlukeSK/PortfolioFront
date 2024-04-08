@@ -2,36 +2,10 @@
 import Footer from "../../layouts/Footer";
 import LogoCat from "../../layouts/LogoCat";
 
-// import QuePage from "../QuePage";
-
 // import BotQueue from "../../components/BotQueue";
 
 export default function RunQue() {
-    const [cards, setCards] = useState([]);
-  
-    const addCard = () => {
-      const nextNumber = cards.length + 1;
-      setCards([...cards, { id: nextNumber, content: `Card ${nextNumber}` }]);
-    };
-  
-    const deleteCard = (id) => {
-      setCards(cards.filter(card => card.id !== id));
-    };
-  
-    const renderCards = () => {
-      const cardElements = [];
-      for (let i = 0; i < cards.length; i++) {
-        const card = cards[i];
-        cardElements.push(
-          <div key={card.id}>
-            <p>{card.content}</p>
-            <button onClick={() => deleteCard(card.id)}>ลบ</button>
-          </div>
-        );
-      }
-    };
   return (
-    
     <div
       className=""
       style={{
@@ -45,7 +19,8 @@ export default function RunQue() {
         <div className="flex justify-center items-center p-10">
           <a className="p-2 text-[1.5rem] font-bold">
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เลขบัตรคิว
-            R1-CAT01 <br />
+            R1-CAT01
+            <br />
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             วันศุกร์ที่ 23 กุมภาพันธ์ 2567 <br />
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -62,4 +37,4 @@ export default function RunQue() {
       <Footer />
     </div>
   );
-};
+}

@@ -1,7 +1,7 @@
-import Footer from "../layouts/Footer";
-import LogoCat from "../layouts/LogoCat";
+import Footer from "../../layouts/Footer";
+import LogoCat from "../../layouts/LogoCat";
 import { useContext } from "react";
-import { DateContext } from "../features/auth/contexts/DateContext";
+import { DateContext } from "../../features/auth/contexts/DateContext";
 import { Link } from "react-router-dom";
 
 function QuePage() {
@@ -44,10 +44,10 @@ function QuePage() {
             <option disabled selected>
               Select Round
             </option>
-            <option>Round - เช้า เวลา 12:00pm | EMPTY</option>
-            <option>Round - เช้า เวลา 14:00pm | EMPTY</option>
-            <option>Round - บ่าย เวลา 16:00pm | EMPTY</option>
-            <option>Round - บ่าย เวลา 18:00pm | EMPTY</option>
+            <option>Round - เช้า เวลา 12:00pm</option>
+            <option>Round - เช้า เวลา 14:00pm</option>
+            <option>Round - บ่าย เวลา 16:00pm</option>
+            <option>Round - บ่าย เวลา 18:00pm</option>
           </select>
         </div>
       </div>

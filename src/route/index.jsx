@@ -3,15 +3,14 @@ import LoginPage from "../pages/LoginPage";
 import HomePage from "../pages/HomePage";
 import CatPage from "../pages/CatsPage";
 import FoodPage from "../pages/FoodPage";
-import QueuePage from "../pages/QuePage";
+import QuePage from "../pages/admin/QuePage";
 import InfoPage from "../pages/InfoPage";
 import Container from "../layouts/Container";
 import RedirectIfAuthenticated from "../features/auth/components/RedirectIfAuthenticated";
 import ProtectedRoute from "../features/auth/components/ProtectedRoute";
 import Gift from "../pages/Gift";
 
-import CheckUser from "../pages/CheckUser";
-import CheckQueue from "../pages/CheckQueue";
+import CheckQueue from "../pages/admin/CheckQueue";
 import ChangPassword from "../pages/ChangePassword";
 import RunQue from "../pages/miniFoodPage/RunQue";
 
@@ -54,11 +53,7 @@ const router = createBrowserRouter([
       },
       {
         path: "queue",
-        element: <QueuePage />,
-      },
-      {
-        path: "checkuser",
-        element: <CheckUser />,
+        element: <QuePage />,
       },
       {
         path: "checkqueue",

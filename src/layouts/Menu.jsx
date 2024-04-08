@@ -47,16 +47,9 @@ export default function Menu() {
                   //   ===== ADMIN =====
                   authUser.status == "admin" ? (
                     <>
-                      <li>
-                        <a className=" hover:text-pink-700 duration-300" href="/checkuser">Check User</a>
-                      </li>
 
                       <li>
                         <a className=" hover:text-pink-700 duration-300" href="/checkqueue">Check Queue</a>
-                      </li>
-
-                      <li>
-                        <a className=" hover:text-pink-700 duration-300" href="/">Update Queue</a>
                       </li>
 
                       <li>
