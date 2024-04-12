@@ -70,7 +70,7 @@ function QuePage() {
       </div>
 
       <div className="flex justify-center p-2">
-        <div className="flex justify-center bg-pink-400 border-2 border-pink-400 hover:border-white w-[7rem] text-white font-bold hover:bg-pink-500 p-1">
+        <div className="flex rounded-md justify-center bg-pink-400 border-2 border-pink-400 hover:border-white w-[7rem] text-white font-bold hover:bg-pink-500 p-1">
           <Link to="/runqueue">
             <button>จองคิว</button>
           </Link>

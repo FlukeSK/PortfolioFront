@@ -1,14 +1,11 @@
 import Footer from "../layouts/Footer";
 import LogoCat from "../layouts/LogoCat";
-
 import Cats from "../assets/Cats/Cats.png";
-import Happy from "../assets/Cats/Happy.jpg";
-import Beacon from "../assets/Cats/เบค่อน.jpg";
+import ImageInfoCatForm from "../features/auth/components/ImageInfoCatForm.jsx";
+
 import { useState } from "react";
 import { useEffect } from "react";
-// import axios from "axios";
 import { BadgeX } from "../icons";
-
 import { fetchCat, fetchCatDelete } from "../api/auth-infocat.js";
 
 export default function CatsPage() {
@@ -41,16 +38,13 @@ export default function CatsPage() {
 
   const handleAddCard = () => {
     const nextNumber = input.length + 1;
-    setData([...input, { id: nextNumber, content: `Card ${nextNumber}` }]);
+    setData([...data, { id: nextNumber, content: `Card ${nextNumber}` }]);
   };
   console.log(input)
 
   const handleDeleteCard = (id) => {
     console.log(id);
     fetchCatDelete(id
-    //   , {
-    //   method: "DELETE",
-    // }
     )
       .then((data) => {
         console.log(data);
@@ -127,12 +121,7 @@ export default function CatsPage() {
         <div className="flex justify-around items-baseline px-8">
           <div className="cards bg-white rounded-md lg:card-side bg-base-100 hover:duration-500 shadow-xl w-[12rem] border border-cyan-400 border-x-2 border-y-2 transition hover:scale-110 hover:shadow-cyan-200">
             <figure>
-              <input
-                type="file"
-                name="image"
-                className="file-input file-input-bordered w-full max-w-xs"
-              />
-              
+              <ImageInfoCatForm />
             </figure>
             <div className="card-body ">
               <ul className=" pl-2">
@@ -196,10 +185,10 @@ export default function CatsPage() {
                 </li>
               </ul>
             </div>
-            <div className="flex justify-center">
+            <div className="flex justify-center p-2">
               <button
                 onClick={handleAddCard}
-                className=" bg-pink-400 text-white hover:bg-pink-600 flex justify-center content-center border-2 border-pink-600 px-2"
+                className=" bg-pink-400 text-white hover:bg-pink-500 flex justify-center content-center border-2 rounded-md border-white px-2"
               >
                 CONFRIM
               </button>
