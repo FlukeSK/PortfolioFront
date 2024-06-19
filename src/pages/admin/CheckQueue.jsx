@@ -85,10 +85,13 @@ export default function CheckQueue() {
                 <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3&nbsp;</td>
                 <th>&nbsp;600&nbsp;</th>
                 <div className="flex justify-center m-2">
+                  
                   <button className="px-4 rounded-md bg-pink-400 text-white font-bold hover:bg-pink-500 border-2 border-white">
                     Confrim
                   </button>
-                  <button className="px-4 rounded-md bg-pink-400 text-white font-bold hover:bg-pink-500 border-2 border-white">
+                  <button 
+                  className="px-4 rounded-md bg-pink-400 text-white font-bold hover:bg-pink-500 border-2 border-white"
+                  >
                     Cancel
                   </button>
                 </div>
