@@ -1,5 +1,5 @@
 import Footer from "../../layouts/Footer";
-import LogoCat from "../../layouts/LogoCat";
+import LogoReact from "../../layouts/LogoReact";
 import { useContext } from "react";
 import { DateContext } from "../../features/auth/contexts/DateContext";
 import { Link } from "react-router-dom";
@@ -79,7 +79,7 @@ function QuePage() {
       {/* ========== End ========== */}
       <br />
       <br />
-      <LogoCat />
+      <LogoReact />
       <br />
       <Footer />
     </div>

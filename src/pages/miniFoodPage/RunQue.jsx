@@ -1,6 +1,6 @@
 
 import Footer from "../../layouts/Footer";
-import LogoCat from "../../layouts/LogoCat";
+import LogoReact from "../../layouts/LogoReact";
 
 // import BotQueue from "../../components/BotQueue";
 
@@ -31,7 +31,7 @@ export default function RunQue() {
           </a>
         </div>
       </div>
-      <LogoCat />
+      <LogoReact />
       <br />
       <br />
       <Footer />

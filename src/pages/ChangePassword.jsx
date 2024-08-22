@@ -3,7 +3,7 @@ import { toast } from "react-toastify";
 import Button from "../components/Button";
 import Input from "../components/Input";
 import validateRegister from "../features/auth/validation/validation-register";
-import LogoCat from "../layouts/LogoCat";
+import LogoReact from "../layouts/LogoReact";
 import Footer from "../layouts/Footer";
 
 const initial = {
@@ -46,7 +46,7 @@ export default function ChangePassword({ onSuccess }) {
   return (
     <div>
       <br />
-      <LogoCat />
+      <LogoReact />
       {/* =============== < Form > =============== */}
       <div className=" flex justify-center items-center p-10">
         <form

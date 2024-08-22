@@ -1,5 +1,5 @@
 import Footer from "../layouts/Footer";
-import LogoCat from "../layouts/LogoCat";
+import LogoReact from "../layouts/LogoReact";
 
 import { useContext } from "react";
 import { DateContext } from "../features/auth/contexts/DateContext";
@@ -49,7 +49,7 @@ export default function CheckQueue() {
             </tbody>
           </table>
         </div>
-        <LogoCat />
+        <LogoReact />
         <br />
         <br />
         <Footer />

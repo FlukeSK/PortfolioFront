@@ -1,5 +1,5 @@
 import Footer from "../layouts/Footer";
-import LogoCat from "../layouts/LogoCat";
+import LogoReact from "../layouts/LogoReact";
 import Cats from "../assets/Cats/Cats.png";
 import ImageInfoCatForm from "../features/auth/components/ImageInfoCatForm.jsx";
 
@@ -198,7 +198,7 @@ export default function CatsPage() {
 
         {/* // ========== End ========== // */}
         <br />
-        <LogoCat />
+        <LogoReact />
       </div>
       <Footer />
       <div />

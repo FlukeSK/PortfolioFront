@@ -1,5 +1,5 @@
 import Footer from "../layouts/Footer";
-import LogoCat from "../layouts/LogoCat";
+import LogoReact from "../layouts/LogoReact";
 import { Link } from "react-router-dom";
 
 import shimp from "../assets/Cats/ไข่กุ้ง.jpg";
@@ -18,7 +18,7 @@ function HomePage() {
       }}
     >
       <br />
-      <LogoCat />
+      <LogoReact />
       {/* // ========== IMG ========== // */}
       <div className="flex justify-center p-16 space-x-12 ">
         <div className=" border-pink-400 border-4 rounded-xl hover:scale-110 duration-200">

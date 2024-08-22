@@ -4,7 +4,7 @@ import Button from "../../../components/Button";
 import Input from "../../../components/Input";
 import validateRegister from "../validation/validation-register";
 import useAuth from "../../../hooks/use-auth";
-import LogoCat from "../../../layouts/LogoCat";
+import LogoReact from "../../../layouts/LogoReact";
 
 
 const initial = {
@@ -54,7 +54,7 @@ export default function RegisterForm({ onSuccess }) {
   // =============== < Return > =============== //
   return (
     <div>
-      <LogoCat />
+      <LogoReact />
 
       {/* =============== < Form > =============== */}
       <div className=" flex justify-center items-center">

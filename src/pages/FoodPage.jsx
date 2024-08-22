@@ -11,7 +11,7 @@ import HotDrink from "./miniFoodPage/HotDrink";
 import CatTreats from "./miniFoodPage/CatTreats";
 import Footer from "../layouts/Footer";
 
-import LogoCat from "../layouts/LogoCat";
+import LogoReact from "../layouts/LogoReact";
 
 // =============== < Function > =============== //
 export default function FoodPage() {
@@ -57,7 +57,7 @@ export default function FoodPage() {
         <br />
         {/* ========== Footer ========== */}
         <div className=" flex justify-center items-center">
-          <LogoCat />
+          <LogoReact />
         </div>
         <Footer />
       </div>

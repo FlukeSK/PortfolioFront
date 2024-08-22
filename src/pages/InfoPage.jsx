@@ -1,7 +1,7 @@
 import Cafe01 from "../assets/MenuInfo/Cafe01.jpg";
 import Cafe02 from "../assets/MenuInfo/Cafe02.jpg";
 import MenuInfo from "../assets/MenuInfo/MenuInfo.png";
-import LogoCat from "../layouts/LogoCat";
+import LogoReact from "../layouts/LogoReact";
 import Footer from "../layouts/Footer";
 
 import QA1 from "../assets/Q-A/QA1.png";
@@ -168,7 +168,7 @@ export default function InfoPage() {
 
         {/* ========== Footer ========== */}
         <div className=" flex justify-center items-center">
-          <LogoCat />
+          <LogoReact />
         </div>
       </div>
       <br />

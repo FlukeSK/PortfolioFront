@@ -13,7 +13,7 @@ export default function LoginForm() {
   const { login } = useAuth();
   if (login) {
   } else {
-  }
+}
 
   // =============== < Handle > =============== //
   const handleSubmitForm = async (e) => {
@@ -59,7 +59,7 @@ export default function LoginForm() {
             errorMessage={error.password}
           />
         </div>
-        <Button bg="pink" color="white">
+        <Button bg="cyan" color="white">
           Log in
         </Button>
       </div>

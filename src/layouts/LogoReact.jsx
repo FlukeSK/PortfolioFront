@@ -1,7 +1,7 @@
-import LOGO from "../assets/Info/LOGO.png";
+import LOGO from "../assets/Info/ReactLOGO.png";
 
 // =============== < Function > =============== //
-export default function LogoCat() {
+export default function LogoReact() {
   return (
     <div className=" flex justify-center items-center">
       <img
