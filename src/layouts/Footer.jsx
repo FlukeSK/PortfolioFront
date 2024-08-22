@@ -4,7 +4,7 @@ import "../index.css";
 // =============== < Function > =============== //
 export default function Footer() {
   return (
-    <footer className="footer p-4 bg-neutral text-neutral-content bg-purple-400">
+    <footer className="footer p-4 bg-neutral text-neutral-content">
       <div className="flex justify-center items-center text-white font-bold">
         <p>
           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;

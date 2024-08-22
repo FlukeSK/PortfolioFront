@@ -14,7 +14,7 @@ function HomePage() {
       style={{
         backgroundSize: "2000px 2000px",
         backgroundImage:
-          "url(https://img.freepik.com/free-vector/blurred-valentine-s-day-wallpaper_23-2148819570.jpg?w=996&t=st=1710775724~exp=1710776324~hmac=5d64db4d8645a2be4c6bfeedb15cc1b7fd02d444c9822719a2493273ada71e80)",
+          "url(https://tuemaster.com/wp-content/uploads/2020/03/Shooting-Star-750x375.jpg)",
       }}
     >
       <br />
@@ -30,7 +30,7 @@ function HomePage() {
           />
 
             <button className="flex justify-center items-center bg-pink-400 text-white font-bold w-full ">
-              Cats
+              Resume
             </button>
           </Link>
         </div>
@@ -47,7 +47,7 @@ function HomePage() {
 
 
             <button className="flex justify-center items-center bg-pink-400 text-white font-bold w-full">
-              Food
+            Degree Certificate
             </button>
           </Link>
         </div>
@@ -64,7 +64,7 @@ function HomePage() {
 
 
             <button className=" flex justify-center items-center bg-pink-400 text-white font-bold w-full">
-              Queue
+            Download CV
             </button>
           </Link>
         </div>

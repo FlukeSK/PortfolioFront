@@ -9,7 +9,7 @@ export default function RegisterContainer() {
   return (
     <>
       <div className="text-center">
-        <Button bg="purple" color="white" onClick={() => setOpen(true)}>
+        <Button bg="pink" color="white" onClick={() => setOpen(true)}>
           Create new account
         </Button>
       </div>

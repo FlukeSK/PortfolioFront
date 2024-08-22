@@ -19,23 +19,19 @@ export default function Menu() {
             </li>
 
             <li>
-              <a className=" hover:text-pink-700 duration-300" href="/cat">Cat</a>
+              <a className=" hover:text-pink-700 duration-300" href="/cat">About</a>
             </li>
 
             <li>
-              <a className=" hover:text-pink-700 duration-300" href="/food">Food</a>
+              <a className=" hover:text-pink-700 duration-300" href="/food">Education</a>
             </li>
 
             <li>
-              <a className=" hover:text-pink-700 duration-300" href="/gift">Gift</a>
+              <a className=" hover:text-pink-700 duration-300" href="/gift">Work</a>
             </li>
 
             <li>
-              <a className=" hover:text-pink-700 duration-300" href="/queue">Queue</a>
-            </li>
-
-            <li>
-              <a className=" hover:text-pink-700 duration-300" href="/info">Info</a>
+              <a className=" hover:text-pink-700 duration-300" href="/queue">Previous Work</a>
             </li>
           </ul>
 
@@ -47,10 +43,6 @@ export default function Menu() {
                   //   ===== ADMIN =====
                   authUser.status == "admin" ? (
                     <>
-
-                      <li>
-                        <a className=" hover:text-pink-700 duration-300" href="/checkqueue">Check Queue</a>
-                      </li>
 
                       <li>
                         <p className=" hover:text-pink-700 duration-300" onClick={logout}>Logout</p>
